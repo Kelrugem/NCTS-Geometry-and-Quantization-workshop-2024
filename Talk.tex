@@ -42,6 +42,8 @@ aspectratio=3218,
 \usepackage[scale=2]{ccicons}
 
 \usepgfplotslibrary{dateplot}
+\usetikzlibrary{fit,
+                shapes.arrows}
 
 \usepackage{xspace}
 
@@ -58,6 +60,7 @@ aspectratio=3218,
 %\setcounter{secnumdepth}{5}
 \usepackage[backend=biber, style=numeric]{biblatex}
 \addbibresource{Literatur.bib}
+\newcommand\fibtimes[2]{\mathbin{_{#1}\times_{#2}}}
 %\newcommand{\footlineextra}[1]{
     %\begin{tikzpicture}[remember picture,overlay]
         %\node[yshift=2ex,anchor=south west] at (current page.south west) {\usebeamerfont{author in head/foot}\hspace{2ex}#1};
@@ -288,33 +291,46 @@ aspectratio=3218,
 %{
 %\setbeamertemplate{footline}{}
 %
-%\begin{frame}{Motivation 2 by Thomas Strobl and Alexei Kotov}
+\begin{frame}{Motivation: Covariantisation of Yang-Mills(-Higgs) theory}
 %\setbeamercovered{invisible}
-%\begin{table}[h!]
-		%\begin{tabularx}{\textwidth}{X X}
-			%\rowcolor{gray}
-			%Classical formalism & CYMH GT \\
-			%Lie algebra $\mathfrak{g}$ as $L \times \mathfrak{g}$ & Lie algebroid $E \to N$ \\
-			%\rowcolor{Gray}
-			%$\mathfrak{g}$-action $\gamma$ & Anchor $\rho$ of $E$ \\ 
-			%\rowcolor{Gray}
-			%& \& $E$-connections \\
-			%Canonical flat connection $\nabla^0$ on $L \times \mathfrak{g}$ & General connection $\nabla$ on $E$
-		%\end{tabularx}
-%\end{table}
-%\pause
-%\begin{remark}[Why a "curved theory"?]
-%Usually, the field strength $F$ is given by (abelian, for simplicity)
-%\bas
-%F
-%&\coloneqq
-%\mathrm{d}A
-%=
-%\mathrm{d}^{\nabla^0}A.
-%\eas
-%$\rightsquigarrow$ We will use a general connection $\nabla$ instead of $\nabla^0$, and $\nabla$ may not be flat.
-%\end{remark}
-%\end{frame}
+\begin{tikzpicture}
+%\draw[black, fill=black, -{Triangle[width = 18pt, length = 8pt]}, line width = 5pt] (0,1.7) edge node[above] {Covariantization} (14,1.7);
+\coordinate (a) at (0, 0);
+\coordinate (b) at (14.8, 0);
+\path[->] (a) (b)
+%\node[single arrow, draw=black, line width=.0000003, fill=black,
+      %%minimum width = 3pt, 
+			%single arrow head extend=3pt,
+      %inner xsep=0pt,
+      %fit=(a) (b)] {};
+\end{tikzpicture}
+
+
+\begin{table}[h!]
+		\begin{tabularx}{\textwidth}{X X}
+			\rowcolor{gray}
+			Classical formalism & CYMH GT \\
+			Lie algebra $\mathfrak{g}$ as $L \times \mathfrak{g}$ & Lie algebroid $E \to N$ \\
+			\rowcolor{Gray}
+			$\mathfrak{g}$-action $\gamma$ & Anchor $\rho$ of $E$ \\ 
+			\rowcolor{Gray}
+			& \& $E$-connections \\
+			Canonical flat connection $\nabla^0$ on $L \times \mathfrak{g}$ & General connection $\nabla$ on $E$
+		\end{tabularx}
+\end{table}
+\pause
+\begin{remark}[Why a "curved theory"?]
+Usually, the field strength $F$ is given by (abelian, for simplicity)
+\bas
+F
+&\coloneqq
+\mathrm{d}A
+=
+\mathrm{d}^{\nabla^0}A.
+\eas
+$\rightsquigarrow$ We will use a general connection $\nabla$ instead of $\nabla^0$, and $\nabla$ may not be flat.
+\end{remark}
+\end{frame}
 %
 %
 %
@@ -326,6 +342,69 @@ aspectratio=3218,
 
 {
 %\setbeamertemplate{footline}{}
+\setbeamertemplate{frame footer}{Ana Cannas Da Silva and Alan Weinstein. \textit{Geometric models for noncommutative algebras}, volume 10. American Mathematical Soc., 1999.}
+
+\begin{frame}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+\mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	M
+	\end{tikzcd}
+\end{center}
+
+\begin{definition}
+$\mathcal{G}$ a \textbf{Lie groupoid} if there are surjective submersions $s, t \colon \mathcal{G} \to M$,  \textit{source} and \textit{target}, respectively, and a smooth \textit{multiplication map} $\mathcal{G} \fibtimes{s}{t} \mathcal{G} \to \mathcal{G}$ such that 
+\bes
+s(g'g) = s(g), \qquad t(g'g) = t(g')
+\ees
+for all $(g', g) \in \mathcal{G} \fibtimes{s}{t} \mathcal{G}$ (i.e.\ $s(g') = t(g)$), satisfying the typical expected properties, that is,
+\bas
+\text{Associativity:} && (g'' g') g &= g'' (g'g),
+\\
+\text{Units:} && g e_{s(g)} = g, \quad&\quad e_{t(g)} g = g,
+\\
+\text{Inverse:} && g^{-1} g = e_{s(g)}, \quad&\quad g g^{-1} = e_{t(g)}
+\eas
+for all $(g'', g', g) \in \mathcal{G} \fibtimes{s}{t} \mathcal{G} \fibtimes{s}{t} \mathcal{G}$, where one requires the existence of the \textit{unit} $e$ as a global section of both, $s$ and $t$, and the \textit{inverse} $g^{-1} \in \mathcal{G}$ of $g$.
+\end{definition}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] m
+	\end{tikzcd}
+\end{center}
+\pause
+\begin{example}
+Lie groups $G$
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+G \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	\{*\}
+	\end{tikzcd}
+\end{center}
+\end{example}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] m
+	\end{tikzcd}
+\end{center}
+
+\begin{example}
+Lie group bundles (LGBs) $\pi_G \colon G \to M$
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+G \arrow[d, shift left, "\pi_G"]\arrow["\pi_G", swap, shift right]{d} \\
+	M
+	\end{tikzcd}
+\end{center}
+\end{example}
+\end{frame}
+
 \begin{frame}{Motivation (sort of historical)}
 \textbf{We will mainly focus on Yang-Mills theories:}
 
