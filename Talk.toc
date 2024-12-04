@@ -1,8 +1,8 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Curved Yang-Mills-Higgs theory}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Motivation}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Connections as parallel transport}{12}{0}{1}
-\beamer@sectionintoc {2}{Singular Foliations}{12}{0}{2}
-\beamer@subsectionintoc {2}{1}{Why foliations?}{13}{0}{2}
-\beamer@subsectionintoc {2}{2}{Idea: Relation to gauge theory}{15}{0}{2}
-\beamer@subsectionintoc {2}{3}{Result}{17}{0}{2}
+\beamer@subsectionintoc {1}{2}{Connections as parallel transport}{14}{0}{1}
+\beamer@sectionintoc {2}{Singular Foliations}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Why foliations?}{15}{0}{2}
+\beamer@subsectionintoc {2}{2}{Idea: Relation to gauge theory}{17}{0}{2}
+\beamer@subsectionintoc {2}{3}{Result}{19}{0}{2}
