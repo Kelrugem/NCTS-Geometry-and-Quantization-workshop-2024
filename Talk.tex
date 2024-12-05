@@ -31,6 +31,7 @@ aspectratio=3218,
 \usepackage{tabularx} %Automatic line break of tables using X instead c l r
 %\usepackage{longtable} %table auf mehreren Seiten
 %\usepackage{ltxtable} %Combination of both above
+\usepackage{makecell} %For making larger cells in tables
 \usepackage{xcolor, colortbl}
 
 %Für die ganzen Diagramme
@@ -152,6 +153,10 @@ aspectratio=3218,
   \setbeamercolor{block title}{use=example text,fg=black,bg=yellow!75!black}
   \setbeamercolor{block body}{parent=normal text,use=block title example,bg=yellow!10}
 }
+%\AtBeginEnvironment{example}{%
+  %\setbeamercolor{block title}{use=example text,fg=black,bg=green!75!black}
+  %\setbeamercolor{block body}{parent=normal text,use=block title example,bg=green!10}
+%}
 
 \renewcommand{\qedsymbol}{}
 \theoremstyle{plain}
@@ -261,7 +266,7 @@ S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories},
 			\rowcolor{Gray}
 			Maurer Cartan form & Fibre-wise Maurer-Cartan & Multiplicative YM connection \\ 
 			\multicolumn{1}{X}{Field redefinitions lead to extra terms in gauge transformations and field strength} & 
-			\multicolumn{2}{c}{Coordinate expressions form-invariant under coordinate changes}
+			\multicolumn{2}{c}{\makecell{Expressions form-invariant under field redefinitions, \\ \textbf{but curvature transforms non-trivially}}}
 		\end{tabularx}
 \end{table}}
 
@@ -285,26 +290,26 @@ S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories},
 			\rowcolor{Gray}
 			Maurer Cartan form & Fibre-wise Maurer-Cartan & Covariant adjustments \\ 
 			\multicolumn{1}{X}{Field redefinitions lead to extra terms in gauge transformations and field strength} & 
-			\multicolumn{2}{c}{Coordinate expressions form-invariant under coordinate changes}
+			\multicolumn{2}{c}{\makecell{Expressions form-invariant under field redefinitions, \\ \textbf{but curvature transforms non-trivially}}}
 		\end{tabularx}
 \end{table}}
 
 \end{frame}
-
-\begin{frame}
-\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{X X}
-			\rowcolor{gray}
-			Classical theory & Covariantised flat theory \\
-			Lie algebra $\mathfrak{g}$ as $L \times \mathfrak{g}$ & Lie algebroid $E \to N$ \\
-			\rowcolor{Gray}
-			$\mathfrak{g}$-action $\gamma$ & Anchor $\rho$ of $E$ \\ 
-			\rowcolor{Gray}
-			& \& $E$-connections \\
-			Canonical flat connection $\nabla^0$ on $L \times \mathfrak{g}$ & General connection $\nabla$ on $E$
-		\end{tabularx}
-\end{table}
-\end{frame}
+%
+%\begin{frame}
+%\begin{table}[h!]
+		%\begin{tabularx}{\textwidth}{X X}
+			%\rowcolor{gray}
+			%Classical theory & Covariantised flat theory \\
+			%Lie algebra $\mathfrak{g}$ as $L \times \mathfrak{g}$ & Lie algebroid $E \to N$ \\
+			%\rowcolor{Gray}
+			%$\mathfrak{g}$-action $\gamma$ & Anchor $\rho$ of $E$ \\ 
+			%\rowcolor{Gray}
+			%& \& $E$-connections \\
+			%Canonical flat connection $\nabla^0$ on $L \times \mathfrak{g}$ & General connection $\nabla$ on $E$
+		%\end{tabularx}
+%\end{table}
+%\end{frame}
 
 
 
@@ -320,7 +325,10 @@ S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories},
 	\end{tikzcd}
 \end{center}
 
-\begin{definition}
+\subsection{Lie groupoids}
+
+\begin{definition}[Lie groupoids]
+\vspace{.5pt}
 $\mathcal{G}$ a \textbf{Lie groupoid} if there are surjective submersions $s, t \colon \mathcal{G} \to M$,  \textit{source} and \textit{target}, respectively, and a smooth \textit{multiplication map} $\mathcal{G} \fibtimes{s}{t} \mathcal{G} \to \mathcal{G}$ such that 
 \bes
 s(g'g) = s(g), \qquad t(g'g) = t(g')
@@ -344,7 +352,8 @@ m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] 
 	\end{tikzcd}
 \end{center}
 \pause
-\begin{example}
+\begin{example}[Lie groups]
+\vspace{.5pt}
 Lie groups $G$
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
@@ -362,13 +371,42 @@ m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] 
 	\end{tikzcd}
 \end{center}
 
-\begin{example}
-Lie group bundles (LGBs) $\pi_G \colon G \to M$
+\begin{example}[Lie group bundles (LGBs)]
+\vspace{.5pt}
+LGB $\pi_G \colon G \to M$
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
 G \arrow[d, shift left, "\pi_G"]\arrow["\pi_G", swap, shift right]{d} \\
 	M
 	\end{tikzcd}
+\end{center}
+\end{example}
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] m
+	\end{tikzcd}
+\end{center}
+
+
+\begin{example}[Action groupoid (trivial)]
+\vspace{.5pt}
+Lie group $G$ with action $\Psi \colon N \times G \to N$, $(p, g) \mapsto p \cdot g$, on $N$. 
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+N \times G \arrow[d, shift left, "\Psi"]\arrow["\mathup{pr}_1", swap, shift right]{d} \\
+	N
+	\end{tikzcd}
+\bas
+(x, g) ~ (x \cdot g, q)&=(x, g q)~,
+\\
+e_x &= \left(x, e \right)~,
+\\
+(x, g)^{-1} &= \left(x \cdot g, g^{-1} \right)
+\eas
 \end{center}
 \end{example}
 \end{frame}

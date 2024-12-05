@@ -15,18 +15,20 @@
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\slideentry {1}{1}{3}{6/6}{Motivation}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{1}{4}{7/7}{Motivation}{0}}
+\headcommand {\beamer@subsectionpages {4}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{7}{Lie groupoids}}
+\headcommand {\slideentry {1}{2}{0}{7/7}{Motivation}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {1}{1}{5}{8/8}{Motivation}{0}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {1}{1}{6}{9/10}{Motivation}{0}}
-\headcommand {\beamer@framepages {9}{10}}
-\headcommand {\slideentry {1}{1}{7}{11/11}{Motivation}{0}}
+\headcommand {\slideentry {1}{2}{1}{8/9}{Motivation}{0}}
+\headcommand {\beamer@framepages {8}{9}}
+\headcommand {\slideentry {1}{2}{2}{10/10}{Motivation}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{2}{3}{11/11}{Motivation}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {1}{1}{8}{12/13}{Motivation}{0}}
+\headcommand {\slideentry {1}{2}{4}{12/13}{Motivation}{0}}
 \headcommand {\beamer@framepages {12}{13}}
 \headcommand {\beamer@subsectionpages {4}{13}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{14}{Connections as parallel transport}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{14}{Connections as parallel transport}}
 \headcommand {\beamer@sectionpages {3}{13}}
 \headcommand {\beamer@subsectionpages {14}{13}}
 \headcommand {\sectionentry {2}{Singular Foliations}{14}{Singular Foliations}{0}}
