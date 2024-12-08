@@ -1,15 +1,18 @@
 \documentclass[
 aspectratio=3218, 
-10pt, hyperref={pdfpagelabels=false}]{beamer}
+10pt
+%, hyperref={pdfpagelabels=false}
+]{beamer}
 
 \usepackage{CJKutf8}
 \usepackage[english]{babel}
-\usepackage{xcolor}
+%\usepackage{xcolor}
 \usepackage{lmodern}
-\usepackage{amssymb}
+%\usepackage{amssymb}
 %\usefonttheme{serif}
 \usepackage[makeroom]{cancel} %for crossing symbols
 \usepackage{leftindex} %For leftindex, making it possible to have nicely aligned left subscripts
+%\usepackage[export]{adjustbox}
 %\usepackage{calligra}
 %\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n} %For small \mathcal letters
 \makeatletter
@@ -18,7 +21,7 @@ aspectratio=3218,
 \DeclareMathAlphabet{\mathKel}{LS1}{stixscr}{m}{n}
 \DeclareMathAlphabet{\mathcal}{LS1}{stixscr}{m}{n}
 \usepackage{amsthm}
-\usepackage{amsmath}
+%\usepackage{amsmath}
 %\usepackage{mathabx}
 \usepackage{stmaryrd}
 \usepackage{amsbsy}
@@ -32,10 +35,20 @@ aspectratio=3218,
 %\usepackage{longtable} %table auf mehreren Seiten
 %\usepackage{ltxtable} %Combination of both above
 \usepackage{makecell} %For making larger cells in tables
-\usepackage{xcolor, colortbl}
+\usepackage{colortbl}
 
 %Für die ganzen Diagramme
 \usepackage{pgfplots}
+
+%Warning symbol
+\usepackage{newunicodechar}
+
+\newcommand\Warning{%  
+\makebox[1.4em][c]{%  
+\makebox[0pt][c]{\raisebox{0em}{\textbf{!}}}%  
+\makebox[0pt][c]{\color{red}\LARGE$\bigtriangleup$}}}
+
+\newunicodechar{⚠}{\Warning}
 
 \usepackage{appendixnumberbeamer}
 
@@ -48,7 +61,7 @@ aspectratio=3218,
 
 \usepackage{xspace}
 
-\usepackage{graphicx} %Für raisebox, vertical displacement of figures
+%\usepackage{graphicx} %Für raisebox, vertical displacement of figures
 \usetikzlibrary{decorations.markings, decorations.text,calc,arrows.meta}
 
 \definecolor{Gray}{gray}{0.85}
@@ -245,8 +258,11 @@ aspectratio=3218,
 			\multicolumn{2}{c}{Coordinate expressions form-invariant under coordinate changes}
 		\end{tabularx}
 \end{table}}
-
-\end{frame}
+\vspace{-30pt}
+\begin{tikzcd}[ampersand replacement=\&]
+\phantom{Coordinate changes may lead to extra terms} \arrow[bend right, equal]{r} \& \phantom{Coordinate}
+	\end{tikzcd}
+ \end{frame}
 
 \setbeamertemplate{frame footer}{S.-R.\ Fischer. \textit{Integrating curved Yang–Mills gauge theories}, arXiv: 2210.02924, 2022. \newline 
 S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories}, Ph.D.\ thesis, Institut Camille Jordan [Villeurbanne], France, U. Geneva, Switzerland, 2021; doi: 10.13097/archive-ouverte/unige:152555}
@@ -264,12 +280,15 @@ S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories},
 			YM theory & Covariantised YM theory & Curved YM theory \\
 			Lie group $G$ & Trivial Lie group bundle $M \times G$ & Lie group bundle $G \to M$ \\
 			\rowcolor{Gray}
-			Maurer Cartan form & Fibre-wise Maurer-Cartan & Multiplicative YM connection \\ 
+			Maurer-Cartan form & Fibre-wise Maurer-Cartan & Multiplicative YM connection \\ 
 			\multicolumn{1}{X}{Field redefinitions lead to extra terms in gauge transformations and field strength} & 
 			\multicolumn{2}{c}{\makecell{Expressions form-invariant under field redefinitions, \\ \textbf{but curvature transforms non-trivially}}}
 		\end{tabularx}
 \end{table}}
-
+\vspace{-30pt}
+\begin{tikzcd}[ampersand replacement=\&]
+\phantom{Coordinate changes may lead to extra terms} \arrow[bend right, equal]{r} \& \phantom{Coordinate}
+	\end{tikzcd}
 \end{frame}
 
 \setbeamertemplate{frame footer}{S.-R.\ Fischer, M.\ Jalali Farahani, H.\ Kim, and C.\ Saemann. \textit{Adjusted connections I: Differential cocycles for principal groupoid bundles with connection}, arXiv: 2406.16755, 202. \newline 
@@ -288,29 +307,16 @@ S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories},
 			YMH theory & Covariantised YMH theory & Curved YMH theory \\
 			Lie group $G$ with right-action on $N$ & Action groupoid $N \times G$ & Lie groupoid $G \rightrightarrows N$ \\
 			\rowcolor{Gray}
-			Maurer Cartan form & Fibre-wise Maurer-Cartan & Covariant adjustments \\ 
+			Maurer-Cartan form & Fibre-wise Maurer-Cartan & Covariant adjustments \\ 
 			\multicolumn{1}{X}{Field redefinitions lead to extra terms in gauge transformations and field strength} & 
 			\multicolumn{2}{c}{\makecell{Expressions form-invariant under field redefinitions, \\ \textbf{but curvature transforms non-trivially}}}
 		\end{tabularx}
 \end{table}}
-
+\vspace{-30pt}
+\begin{tikzcd}[ampersand replacement=\&]
+\phantom{Coordinate changes may lead to extra terms} \arrow[bend right, equal]{r} \& \phantom{Expressions form-invariant}
+	\end{tikzcd}
 \end{frame}
-%
-%\begin{frame}
-%\begin{table}[h!]
-		%\begin{tabularx}{\textwidth}{X X}
-			%\rowcolor{gray}
-			%Classical theory & Covariantised flat theory \\
-			%Lie algebra $\mathfrak{g}$ as $L \times \mathfrak{g}$ & Lie algebroid $E \to N$ \\
-			%\rowcolor{Gray}
-			%$\mathfrak{g}$-action $\gamma$ & Anchor $\rho$ of $E$ \\ 
-			%\rowcolor{Gray}
-			%& \& $E$-connections \\
-			%Canonical flat connection $\nabla^0$ on $L \times \mathfrak{g}$ & General connection $\nabla$ on $E$
-		%\end{tabularx}
-%\end{table}
-%\end{frame}
-
 
 
 
@@ -321,15 +327,13 @@ S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories},
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
 \mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
-	M
+	N
 	\end{tikzcd}
 \end{center}
 
-\subsection{Lie groupoids}
-
 \begin{definition}[Lie groupoids]
 \vspace{.5pt}
-$\mathcal{G}$ a \textbf{Lie groupoid} if there are surjective submersions $s, t \colon \mathcal{G} \to M$,  \textit{source} and \textit{target}, respectively, and a smooth \textit{multiplication map} $\mathcal{G} \fibtimes{s}{t} \mathcal{G} \to \mathcal{G}$ such that 
+$\mathcal{G}$ a \textbf{Lie groupoid} if there are surjective submersions $s, t \colon \mathcal{G} \to N$,  \textit{source} and \textit{target}, respectively, and a smooth \textit{multiplication map} $\mathcal{G} \fibtimes{s}{t} \mathcal{G} \to \mathcal{G}$ such that 
 \bes
 s(g'g) = s(g), \qquad t(g'g) = t(g')
 \ees
@@ -348,10 +352,18 @@ for all $(g'', g', g) \in \mathcal{G} \fibtimes{s}{t} \mathcal{G} \fibtimes{s}{t
 \begin{frame}
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
-m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] m
+x'' \& \arrow[l, swap, "g'", bend right] x' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] x
 	\end{tikzcd}
 \end{center}
-\pause
+\end{frame}
+
+\begin{frame}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+* \& \arrow[l, swap, "g'", bend right] * \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] *
+	\end{tikzcd}
+\end{center}
+%\pause
 \begin{example}[Lie groups]
 \vspace{.5pt}
 Lie groups $G$
@@ -367,7 +379,7 @@ G \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
 \begin{frame}
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
-m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] m
+x \& \arrow[l, swap, "g'", bend right] x \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] x
 	\end{tikzcd}
 \end{center}
 
@@ -387,547 +399,205 @@ G \arrow[d, shift left, "\pi_G"]\arrow["\pi_G", swap, shift right]{d} \\
 \begin{frame}
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
-m'' \& \arrow[l, swap, "g'", bend right] m' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] m
+x \& \arrow[l, swap, "g'" pos=.42, bend right] x \cdot q \& \arrow[l, swap, "g" pos= .45, bend right] \arrow[ll, swap, "g'g", bend right=70] x \cdot q q'
 	\end{tikzcd}
 \end{center}
 
 
 \begin{example}[Action groupoid (trivial)]
 \vspace{.5pt}
-Lie group $G$ with action $\Psi \colon N \times G \to N$, $(p, g) \mapsto p \cdot g$, on $N$. 
+Lie group $G$ with action $\Psi \colon N \times G \to N$, $(p, q) \mapsto p \cdot q$, on $N$. 
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
 N \times G \arrow[d, shift left, "\Psi"]\arrow["\mathup{pr}_1", swap, shift right]{d} \\
 	N
 	\end{tikzcd}
 \bas
-(x, g) ~ (x \cdot g, q)&=(x, g q)~,
+(x, q) ~ (x \cdot q, q')&=(x, q q')~,
 \\
 e_x &= \left(x, e \right)~,
 \\
-(x, g)^{-1} &= \left(x \cdot g, g^{-1} \right)
+(x, q)^{-1} &= \left(x \cdot q, q^{-1} \right)
 \eas
 \end{center}
 \end{example}
 \end{frame}
 
-\begin{frame}{Motivation (sort of historical)}
-\textbf{We will mainly focus on Yang-Mills theories:}
+\setbeamertemplate{frame footer}{Kirill C.~H.\ Mackenzie. \textit{General theory of {L}ie groupoids and {L}ie algebroids}, London Mathematical Society Lecture Note Series, 213:xxxviii+501, 2005.}
 
-\begin{table}[h!]
-		\begin{tabularx}{\textwidth}{X| c c} 
-			\rowcolor{gray}
-			& Classical & Curved \\ \hline
-			Infinitesimal & Lie algebra $\mathfrak{g}$ & LAB\footnote{LAB = Lie algebra bundle} $\mathcal{g}$ \\
-			\rowcolor{Gray}
-			Integrated & Lie group $G$ & \textcolor[rgb]{1,0.41,0.13}{LGB\footnote{LGB = Lie group bundle} $\mathcal{G}$} \\
-		\end{tabularx}
-\end{table}
-
-\vspace{-0.5cm}
-
+\begin{frame}
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
-	G \arrow{r} \& \mathcal{G} \arrow{d} \\
-	\& L
+P \arrow["\Phi", swap]{rd} \& \arrow[bend right]{l} \mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	 \& N
 	\end{tikzcd}
 \end{center}
 
-\vspace{-0.5cm}
+\begin{definition}[Groupoid right-action]\vspace{.5pt}
+A \textbf{right-action} is a smooth map $P \fibtimes{\Phi}t \mathcal{G} \to P$ such that
+\bas
+\Phi(p \cdot g') &= s(g'),
+\\
+(p \cdot g') \cdot g &= p \cdot (g' g),
+\\
+p \cdot e_{\Phi(p)} &= p
+\eas
+for all $(p, g', g) \in P \fibtimes{\Phi}t \mathcal{G} \fibtimes ts \mathcal{G}$.
+\end{definition}
+\end{frame}
 
+\setbeamertemplate{frame footer}{I.~Moerdijk and J.~Mr{\v c}un. \textit{Introduction to foliations and Lie groupoids}, Cambridge University Press, 2003.}
+
+\begin{frame}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+P \arrow["\Phi", swap]{rd} \arrow["\pi", swap]{d} \& \arrow[bend right]{l} \mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	M \& N
+	\end{tikzcd}
+\end{center}
+
+\begin{definition}[Principal groupoid-bundles]\vspace{.5pt}
+$\pi\colon P \to M$ surjective submersion is a \textbf{principal $\mathcal{G}$-bundle} if
+\bes
+\pi(p \cdot g) = \pi(p)
+\ees
+for all $(p, g) \in P \fibtimes{\Phi}t \mathcal{G}$,
+and if
+\bas
+P \fibtimes{\Phi}t \mathcal{G} &\to P \fibtimes\pi\pi P,
+\\
+(p, g) &\mapsto (p, p\cdot g)
+\eas
+is a diffeomorphism.
+\end{definition}
+\end{frame}
+
+\setbeamertemplate{frame footer}{}
+
+\begin{frame}{Ehresmann connection}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+P \arrow["\Phi", swap]{rd} \arrow["\pi", swap]{d} \& \arrow[bend right]{l} \mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	M \& N
+	\end{tikzcd}
+\end{center}
+
+\begin{remark}
+Infinitesimal action:
+\bas
+\mathup{T}P \fibtimes{\mathup{D}\Phi}{\mathup{D}t} \mathup{T}\mathcal{G}
+&\to 
+\mathup{T}P,
+\\
+(X, Y) &\mapsto X \cdot Y.
+\eas
 \pause
-
-\begin{remark}[Why \textbf{curved}?]
-For gauge invariance and closure of gauge transformations:
-
-\begin{itemize}
-	\item Generalize Maurer-Cartan form $\rightarrow$ \textbf{Multiplicative Yang-Mills connection}.
-	\item Generalize Field Strength.
-\end{itemize}
+For $r_g(p) \coloneqq p \cdot g$ with $\Phi(p) = t(g)$, its infinitesimal version corresponds to
+\bes
+\mathup{D}r_g(X) = X \cdot 0
+\ees
+for all $X$ with $\mathup{D}\Phi(X) = 0$.
 \end{remark}
+\end{frame}
+
+\setbeamertemplate{frame footer}{I.~Moerdijk and J.~Mr{\v c}un. \textit{Introduction to foliations and Lie groupoids}, Cambridge University Press, 2003. \newline
+D.~Signori and M.~Sti\'{e}non. \textit{On nonlinear gauge theories}, J.\ Geom.\ Phys.\ {\bf 59} 1063, 2009.}
+
+\begin{frame}{Ehresmann connection}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+P \arrow["\Phi", swap]{rd} \arrow["\pi", swap]{d} \& \arrow[bend right]{l} \mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	M \& N
+	\end{tikzcd}
+\end{center}
+
+Infinitesimal $\mathcal{G}$-action on $P$:
+\bas
+\mathup{T}P \fibtimes{\mathup{D}\Phi}{\mathup{D}t} \mathup{T}\mathcal{G}
+&\to 
+\mathup{T}P,
+\\
+(X, Y) &\mapsto X \cdot Y.
+\eas
+
+\begin{idea}
+Horizontal distribution $\mathup{H}P$ (w.r.t.\ $\pi$) with
+\bes
+\mathup{D}\Phi ( \mathup{H}P ) = 0.
+\ees
+\end{idea}
 
 \end{frame}
-}
 
-%{
-%
-%\begin{frame}{Motivation 2 by S.-R.\ F.}
-%Consider a semisimple Lie group $G$ and a principal $G$-bundle $P \to L$:
-%%$\mathbb{H}$ the horizontal distribution on $\mathcal{P} \tilde{\times} \mathcal{T}$:
+\setbeamertemplate{frame footer}{S.-R.\ Fischer. \textit{Integrating curved Yang–Mills gauge theories}, arXiv: 2210.02924, 2022. \newline 
+S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories}, Ph.D.\ thesis, Institut Camille Jordan [Villeurbanne], France, U. Geneva, Switzerland, 2021; doi: 10.13097/archive-ouverte/unige:152555}
+
+
+\begin{frame}{We lose covariantization}
+
+
 %\begin{center}
-	%\begin{tikzcd}[ampersand replacement=\&]
-	%(P \times \mathfrak{g})/G
-	%\arrow[hook]{r}
-	%\&
-	%\mathup{T}P/G
-	%\arrow[two heads]{r}
-	%\&
-	%\mathrm{T}L \arrow[bend right, swap]{l}{A}
-	%\end{tikzcd}
-%\end{center}
- %
-	%%where $\mathup{Ad}(P)$ and $\mathup{At}(P)$ the adjoint and Atiyah bundle of a principal $G$-bundle $P$, respectively. 
-	%\pause
-	%
-	%\begin{gedankenexperiment}
-	%\begin{enumerate}
-		%\item Adjoint connection $\leftrightarrow$ Ehresmann connection on $P$. 
-		%\item As parallel transport:
-		%\begin{equation*}
-		%\mathup{PT}_\gamma^{\mathup{Ad}(P)}([p, v])
-		%=
-		%\mleft[ \mathup{PT}_\gamma^P(p), v \mright]
-		%\end{equation*}
-		%for all $[p, v] \in (P \times \mathfrak{g})/G$.
-	%\end{enumerate}
-	%\end{gedankenexperiment}
-%\end{frame}
-%
-%\begin{frame}{Motivation 2 by S.-R.\ F.}
-%Consider a semisimple Lie group $G$ and a principal $G$-bundle $P \to L$:
-%%$\mathbb{H}$ the horizontal distribution on $\mathcal{P} \tilde{\times} \mathcal{T}$:
-%\begin{center}
-	%\begin{tikzcd}[ampersand replacement=\&]
-	%\mleft(P \times_L \underline{\mathfrak{g}}\mright)/G
-	%\arrow[hook]{r}
-	%\&
-	%\mathup{T}P/G
-	%\arrow[two heads]{r}
-	%\&
-	%\mathrm{T}L \arrow[bend right, swap]{l}{A}
-	%\end{tikzcd}
-%\end{center}
- %
-	%%where $\mathup{Ad}(P)$ and $\mathup{At}(P)$ the adjoint and Atiyah bundle of a principal $G$-bundle $P$, respectively. 
-	%
-	%\begin{gedankenexperiment}
-	%\begin{enumerate}
-		%\item Adjoint connection $\leftrightarrow$ Ehresmann connection on $P$. 
-		%\item As parallel transport:
-		%\begin{equation*}
-		%\mathup{PT}_\gamma^{\mathup{Ad}(P)}([p, v])
-		%=
-		%\mleft[ \mathup{PT}_\gamma^P(p), \mathup{PT}_\gamma^0(v) \mright],
-		%\end{equation*}
-		%Lie algebra $\mathfrak{g}$ as trivial bundle w/ canonical flat connection
-	%\end{enumerate}
-	%\end{gedankenexperiment}
-%\end{frame}
-%
-%\begin{frame}{Motivation 2 by S.-R.\ F.}
-%Consider a semisimple Lie group $G$ and a principal $G$-bundle $P \to L$:
-%%$\mathbb{H}$ the horizontal distribution on $\mathcal{P} \tilde{\times} \mathcal{T}$:
-%\begin{center}
-	%\begin{tikzcd}[ampersand replacement=\&]
-	%\mleft(P \times_L \underline{\mathfrak{g}}\mright)/G
-	%\arrow[hook]{r}
-	%\&
-	%\mathup{T}P/G
-	%\arrow[two heads]{r}
-	%\&
-	%\mathrm{T}L \arrow[bend right, swap]{l}{A}
-	%\end{tikzcd}
-%\end{center}
- %
-	%%where $\mathup{Ad}(P)$ and $\mathup{At}(P)$ the adjoint and Atiyah bundle of a principal $G$-bundle $P$, respectively. 
-	%
-	%\begin{gedankenexperiment}
-	%\begin{enumerate}
-		%\item Adjoint connection $\leftrightarrow$ Ehresmann connection on $P$. 
-		%\item As parallel transport:
-		%\begin{equation*}
-		%\mathup{PT}_\gamma^{\mathup{Ad}(P)}([p, v])
-		%=
-		%\mleft[ \mathup{PT}_\gamma^P(p){\color[rgb]{0.24,0.7,0.44} \cdot \kappa_\gamma}, {\color[rgb]{0.24,0.7,0.44} \kappa_\gamma^{-1} \cdot} \mathup{PT}_\gamma^0(v) \mright],
-		%\end{equation*}
-		%Lie algebra $\mathfrak{g}$ as trivial bundle w/ canonical flat connection, $\kappa_\gamma$ values in $G$ \& "suitable"
-	%\end{enumerate}
-	%\end{gedankenexperiment}
-%\end{frame}
-%
-%
-%\begin{frame}{Conclusion}
-%\begin{block}{Theorem (Field Redefinitions, [S.-R.\ F.])}
-%%\begin{itemize}[<+->]
-%\vspace{.5pt}
-%This leads to an equivalence relation of gauge theories, preserving dynamics and kinematics.
-%
-%But: In the {\color[rgb]{0.24,0.7,0.44} curved} sense! Curvature terms appear.
-%\end{block}
-%\pause
-%\metroset{block=fill}
-%\begin{exampleblock}{Motivation ([S.-R.\ F.])}
-%\begin{enumerate}
-	%\item How to formulate gauge theory such that it is invariant under field redefinitions?
-	%\item Are there curved theories which are \textbf{not} equivalent to classical ones?
-%\end{enumerate}
-%\end{exampleblock}
-%
-%
-%\end{frame}
-
-%}
-
-%\subsection{Setup}
-
-%\renewcommand\insertreferences{{\tiny  K. Mackenzie. General Theory of Lie Groupoids and Algebroids. \newline \textit{London Mathematical Society Lecture Note Series}, 213, 2005.}}
-%
-%\begin{frame}
-%\begin{definition}[LGB actions, simplified]
-%\begin{center}
-	%\begin{tikzcd}[ampersand replacement=\&, column sep = small, row sep = small]
-	%\& \arrow[bend right]{ld} \mathcal{G} \arrow{d} \\
-	%\mathcal{P} \arrow{r}{\pi} \& L
-	%\end{tikzcd}
-%\end{center}
-%$\mathcal{P} \stackrel{\pi}{\to} L$ a fibre bundle. A \textbf{right-action of $\mathcal{G}$ on $\mathcal{P}$} is a smooth map 
-%%\bas
-%$\mathcal{P} * \mathcal{G} \coloneqq \pi^*\mathcal{G} = \mathcal{P} \times_L \mathcal{G} \to \mathcal{P}$,
-%$(p, g) \mapsto p \cdot g$,
-%%\eas
-%satisfying the following properties:
-%\ba\label{InvarianceOffUnderGAction}
-%\pi(p \cdot g) &= \pi(p),\\
-%(p \cdot g) \cdot h &= p \cdot (gh),\\
-%p \cdot e_{\pi(p)} &= p
-%\ea
-%for all $p \in \mathcal{P}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p)}$ is the neutral element of $\mathcal{G}_{\pi(p)}$.
-%\end{definition}
-%\end{frame}
-
-%\renewcommand\insertreferences{{\tiny Ieke Moerdijk, Janez Mrcun. Introduction to Foliations and Lie Groupoids. \newline \textit{Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge}, 2003}}
-%
-%\begin{frame}
-%\begin{definition}[Principal bundle]
-%Still a fibre bundle
-%\begin{center}
-	%\begin{tikzcd}[ampersand replacement=\&]
-	%G \arrow{r} \& \mathcal{P} \arrow{d}{\pi} \\
-	%\& L
-	%\end{tikzcd}
-%\end{center}
-%but with $\mathcal{G}$-action
-%\bas
-%\begin{matrix}
-	%\textcolor[rgb]{1,0,0}{\xcancel{\mathcal{P} \times G}} &\to \mathcal{P} \\
-	%\mathcal{P} * \mathcal{G} &
-%\end{matrix}
-%\eas
-%simply transitive on fibres of $\mathcal{P}$, and "suitable" atlas.
-%\end{definition}
-%\end{frame}
-
-\subsection{Connections as parallel transport}
-{
-%\setbeamertemplate{footline}{}
-
-%
-%{
-%\setbeamertemplate{footline}{}
-
-%\begin{frame}{Connection on $\mathcal{P}$: General case}
-	%\begin{remark}[Integrated case]
-	%Ansatz: Introduce connection on $\mathcal{G}$,
-		%\bas
-		%\mathup{PT}^{\mathcal{P}}_\gamma(p \cdot g)
-		%&=
-		%\mathup{PT}^{\mathcal{P}}_\gamma(p) \cdot \mathup{PT}^{\mathcal{G}}_{\gamma} (g),
-		%\eas
-	%where $\gamma$ is a curve in $L$.
-	%\end{remark}
-	%\pause
-%\begin{BackToTheRoots}
-%\begin{enumerate}
-	%\item $\mathcal{G} \cong L \times G$
-	%\item Equip $\mathcal{G}$ with canonical flat connection
-%\end{enumerate}
-%\end{BackToTheRoots}
-%\end{frame}
-
-%\begin{frame}{Connection on $\mathcal{G}$}
-%\begin{block}{Definition (Multiplicative YM connection, [S.-R.\ F.])}
-%\vspace{.5pt}
-%On $\mathcal{G}$ we speak of a \textbf{multiplicative Yang-Mills connections}, if
-%\bas
-%\mathup{PT}_\gamma^{\mathcal{G}}(q \cdot g)
-%&=
-%\mathup{PT}_\gamma^{\mathcal{G}}(q)
-%\cdot
-%\mathup{PT}_{\gamma}^{\mathcal{G}}(g),
-%\\
-%\mathup{PT}_{\gamma_0}^{\mathcal{G}}(q)
-%&=
-%g_{\gamma_0} \cdot q \cdot g_{\gamma_0}^{-1},
-%\eas
-%where $\gamma_0$ is a contractible loop in $L$.
-%\end{block}
-%
-%\pause
-%
-%\begin{remark}[Infinitesimally]
-%On the Lie algebra bundle $\mathcal{g}$ we have a connection $\nabla$ with 
-%\bas
-%\nabla\mleft( \mleft[ \mu, \nu \mright]_{\mathcal{g}} \mright)
-%&=
-%\mleft[ \nabla \mu, \nu \mright]_{\mathcal{g}}
-	%+ \mleft[ \mu, \nabla \nu \mright]_{\mathcal{g}},
-%\\
-%R_{\nabla}
-%&=
-%\mathrm{ad} \circ \zeta.
-%\eas
-%\end{remark}
-%\end{frame}
-}
-
-%\subsection{Curved Yang-Mills gauge theory}
-%
-%{
-%%\setbeamertemplate{footline}{}
-%\begin{frame}{Comparing ordinary and curved Yang-Mills gauge theory}
-%%\bgroup
-%\def\arraystretch{1.5}%  1 is the default, change whatever you need
-%\begin{table}[h!]
-		%\begin{tabularx}{\textwidth}{X| c c} 
+{\renewcommand{\arraystretch}{2}
+\begin{table}[h!]
+\centering
+		\begin{tabularx}{\textwidth}{c c c}
 			%\rowcolor{gray}
-			%{[S.-R.\ F.]} & Classical & Curved \\ \hline
-			%Structure & Lie group $G$ (trivial LGB) & General LGB $\mathcal{G}$ \\
+			 & \cellcolor{gray} YM theory & \cellcolor{gray} Covariantised YM theory\\
+			\phantom{assssssssdasdasdasd} & Lie group $G$ & Trivial Lie group bundle $M \times G$ \\
 			%\rowcolor{Gray}
-			%Action & $G$-action & $\mathcal{G}$-action \\
-			%Principal bundle $\mathcal{P}$ & $G$-bundle & $\mathcal{G}$-bundle
-			%\\
-			%\rowcolor{Gray}
-			%Gauge bosons & \multicolumn{2}{c}{$\mathup{PT}^{\mathcal{P}}(p \cdot g) = \mathup{PT}^{\mathcal{P}}(p) \cdot \mathup{PT}^{\mathcal{G}}(g)$}
-			%\\
-			%Connection on $\mathcal{G}$ & Maurer-Cartan form & Multiplicative form
-			%\\
-			%\rowcolor{Gray}
-			%$\hookrightarrow$ curvature & Maurer-Cartan equation & Exactness ($\rightarrow\zeta$)
-			%\\
-			%Field strength & Curvature $F$ on $\mathcal{P}$ & $F + \zeta$
-		%\end{tabularx}
-%\end{table}
-%%\egroup
-%\end{frame}
-%%
-%%\subsection{Example}
-%%
-%%\begin{frame}
-%%\begin{example}[Hopf fibration $\mathds{S}^7 \to \mathds{S}^4$, {[S.-R.\ F.]}]
-%%Let $P$ be the Hopf bundle
-%%\begin{center}
-	%%\begin{tikzcd}[ampersand replacement=\&, column sep=small]
-		%%\mathrm{SU}(2) \cong \mathds{S}^3 \arrow{r}	\& \mathds{S}^7 \arrow{d} \\
-			%%\& \mathds{S}^4
-	%%\end{tikzcd}
-%%\end{center}
-%%Define $\mathcal{P} \coloneqq \mathcal{G}$ as the inner group bundle of $P$,
-%%\bas
-%%\mathcal{G}
-%%&\coloneqq
-%%c_{\mathrm{SU}(2)}(P)
-%%\coloneqq 
-%%\bigl(P\times \mathrm{SU}(2)\bigr) \Big/ \mathrm{SU}(2).
-%%\eas
-%%This principal $c_{\mathrm{SU}(2)}(P)$-bundle admits the structure as curved Yang-Mills gauge theory; there is no description as classical gauge theory.
-%%\end{example}
-%%\end{frame}
-%
-%}
+			 & \cellcolor{Gray} Maurer-Cartan form & \cellcolor{Gray} Fibre-wise Maurer-Cartan
+		\end{tabularx}
+\end{table}}
 
-
-%\section[Classification]{An attempt of classification}
-%
-%
-%{
-%\setbeamertemplate{footline}{}
-%\begin{frame}
-%\begin{definition}[Field redefinition, {[S.-R. F.]}]
-%Let $\lambda \in \Omega^1(L; \mathcal{g})$, then we define the \textbf{field redefinitions} by 
-%\bas\label{EqFieldRedefFuerA}
-%\widetilde{A}^\lambda
-%&\coloneqq 
-%A - \pi_{\mathcal{P}}^! \lambda,
-%\\
-%\widetilde{\nabla}^\lambda
-%&\coloneqq
-%\nabla
-	%+ \mathrm{ad} \circ \lambda,
-%\\
-%\widetilde{\zeta}^\lambda
-%&\coloneqq
-%\zeta
-	%+ \mathrm{d}^{\widetilde{\nabla}^\lambda} \lambda
-	%+ \frac12 \mleft[ \lambda \stackrel{\wedge}{,} \lambda \mright]_{\mathcal{g}},
-%\eas
-%where $A \in \Omega^1(\mathcal{P}; \pi_{\mathcal{P}}^*\mathcal{g})$ is the connection 1-form on $\mathcal{P}$.
-%%for all $X, Y \in \mathfrak{X}(L)$.
-%\end{definition}
-%\end{frame}
-%
-%\begin{frame}
-%\begin{proposition}[{[S.-R. F.]}]
-%\begin{itemize}
-	%\item Field redefinitions define an equivalence relation of CYMH gauge theories
-	%\item $\widetilde{\mathfrak{L}}^\lambda_{\mathrm{CYMH}} = \mathfrak{L}_{\mathrm{CYMH}}$
-%\end{itemize}
-%\end{proposition}
-%%\vfill
-%\pause
-%Let us now apply a field redefinition in order to study whether $\nabla$ and $\zeta$ can become flat and zero, respectively.
-%\end{frame}
-%}
-%
-%%\subsection{Classification}
-%
-%{
-%\setbeamertemplate{footline}{}
-%\begin{frame}
-%\begin{theorem}[Invariant for LABs, {[S.-R. F.]}]
-%We have
-%\bas
-%\mathrm{d}^{\widetilde{\nabla}^\lambda} \widetilde{\zeta}^\lambda = \mathrm{d}^\nabla \zeta,
-%\eas
-%and $\mathrm{d}^\nabla \zeta$ has values in the centre of ${\mathcal{g}}$.
-%\end{theorem}
-%
-%\begin{proof}
-%Bianchi identity given by $\mathrm{d}^\nabla \zeta$.
-%
-%Compatibilities: 
-%\bas
-%\nabla_Y\mleft( \mleft[ \mu, \nu \mright]_{\mathcal{g}} \mright)
-%&=
-%\mleft[ \nabla_Y \mu, \nu \mright]_{\mathcal{g}}
-	%+ \mleft[ \mu, \nabla_Y \nu \mright]_{\mathcal{g}}, \\
-%R_\nabla(Y, Z) \mu
-%&=
-%\mleft[ \zeta(Y, Z), \mu \mright]_{\mathcal{g}}
-%\eas
-%for all $Y, Z \in \mathfrak{X}(N)$ and $\mu, \nu \in \Gamma({\mathcal{g}})$.
-%\end{proof}
-%\end{frame}
-%
-%\begin{frame}{Behaviour of the field redefinition of $\zeta$}
-%\begin{theorem}[Existence of non-classical theories, {[S.-R. F.]}]
-%If $\mathrm{d}^\nabla \zeta \neq 0$, then there is no field redefinition such that $\widetilde{\zeta}^\lambda = 0$.
-%\end{theorem}
-%\pause
-%\begin{remark}[{[S.-R. F.]}]
-%Starting with a classical theory:
-%
-%If $\mathrm{dim}(N) \geq 3$ and if Lie algebra $\mathfrak{g}$ has a non-zero centre, then we can always construct a pre-classical CYMH GT which is not a classical one by adding a $\zeta$ with $\mathrm{d}^\nabla \zeta \neq 0$.
-%\end{remark}
-%\pause
-%However, by $R_\nabla = \mathrm{ad}_{\mathcal{g}} \circ \zeta$ it may still be that $\nabla$ becomes flat.
-%\end{frame}
-%
-%\begin{frame}{Turning to the field redefinition of $\nabla$:}
-%\begin{theorem}[Differential on centre-valued forms, {[S.-R. F.]}]
-%$\nabla$ restricts to the centre of ${\mathcal{g}}$ and induces a differential $\mathrm{d}^\Xi$ on centre-valued forms. Moreover, $\mathrm{d}^\Xi$ is independent of the field redefinitions.
-%\end{theorem}
-%\pause
-%\begin{proof}[Sketch of proof]
-%Recall
-%\bas
-%\nabla_Y\mleft( \mleft[ \mu, \nu \mright]_{\mathcal{g}} \mright)
-%&=
-%\mleft[ \nabla_Y \mu, \nu \mright]_{\mathcal{g}}
-	%+ \mleft[ \mu, \nabla_Y \nu \mright]_{\mathcal{g}}, \\
-%R_\nabla(Y, Z) \mu
-%&=
-%\mleft[ \zeta(Y, Z), \mu \mright]_{\mathcal{g}}, \\
-%\widetilde{\nabla}^\lambda_Y \mu
-%&=
-%\nabla_Y \mu
-%- \mleft[\lambda(Y), \mu\mright]_{\mathcal{g}},
-%\eas
-%for all $Y, Z \in \mathfrak{X}(N)$ and $\mu, \nu \in \Gamma({\mathcal{g}})$. Then insert $\mu$ with values in the centre.
-%\end{proof}
-%\end{frame}
-%
-%\begin{frame}
-%\begin{theorem}[Closedness of $\mathrm{d}^\nabla \zeta$, {[S.-R. F.]}]
-%We have
-%\bas
-%\mathrm{d}^\Xi \mathrm{d}^\nabla \zeta
-%&=
-%0.
-%\eas
-%\end{theorem}
-%\pause
-%\begin{definition}[Obstruction class, {[S.-R. F.]}]
-%We define the \textbf{obstruction class} by
-%\bas
-%\mathrm{Obs}(\Xi)
-%&\coloneqq
-%\mleft[ \mathrm{d}^\nabla \zeta \mright]_{\mathrm{d}^\Xi}.
-%\eas
-%\end{definition}
-%\pause
-%\begin{proposition}[{[S.-R. F.]}]
-%\begin{itemize}[<+->]
-	%\item An invariant of the field redefinitions.
-	%\item If $\nabla$ flat, then $\mathrm{Obs}(\Xi) = 0$.
-%\end{itemize}
-%\end{proposition}
-%\end{frame}
-%
-%\begin{frame}
-%\begin{theorem}[Obstruction for non-pre-classical theories, {[S.-R. F.]}]
-%If $\mathrm{Obs}(\Xi) \neq 0$, then there is no field redefinition such that $\widetilde{\nabla}^\lambda$ is flat.
-%\end{theorem}
-%\pause
-%\begin{theorem}[Locally always pre-classical]
-%If $L$ is contractible, then there is a field redefinition such that $\widetilde{\nabla}^\lambda$ is flat.
-%\end{theorem}
-%\pause
-%\begin{remark}
-%Second theorem follows as a result by K.~Mackenzie (General Theory of Lie Groupoids and Algebroids. \textit{London Mathematical Society Lecture Note Series}, 213, 2005). Mackenzie derived $\mathrm{Obs}(\Xi)$ in the context of extending Lie algebroids by LABs.
-%\end{remark}
-%\end{frame}
-%}
-%
-%\renewcommand\insertreferences{{\tiny  K. Mackenzie. General Theory of Lie Groupoids and Algebroids. \newline \textit{London Mathematical Society Lecture Note Series}, 213, 2005.}}
-%
-%\begin{frame}
-%\begin{example}[Zero obstruction class not necessarily pre-classical]
-%Let $P$ be the Hopf fibration
-%\begin{center}
-	%\begin{tikzcd}[ampersand replacement=\&, column sep=small]
-		%\mathrm{SU}(2) \arrow{r}	\& \mathds{S}^7 \arrow{d} \\
-			%\& \mathds{S}^4
-	%\end{tikzcd}
+\begin{center}
+\vspace{-25pt}
+\begin{tikzcd}[ampersand replacement=\&]
+\phantom{Maurer-Cartan form} \arrow[bend right, equal]{r} \& \phantom{Fibre-wise Maurer-Cartan}
+	\end{tikzcd}
+\end{center}
 %\end{center}
-%Then for the adjoint bundle
-%\bas
-%{\mathcal{g}}
-%&\coloneqq
-%P \times_{\mathrm{SU}(2)} \mathfrak{su}(2)
-%\coloneqq 
-%\mleft( \mathds{S}^7 \times \mathfrak{su}(2) \mright) \Big/ \mathrm{SU}(2)
-%\eas
-%we have a non-flat $\nabla$ satisfying the compatibility conditions such that all of its field redefinitions are not flat either, but $\mathrm{Obs}(\Xi) = 0$.
-%\end{example}
-%\end{frame}
-%
-%{
-%\setbeamertemplate{footline}{}
-%\begin{frame}{Summary}
-%\begin{remark}
-%Locally, LABs are always pre-classical but not necessarily classical. 
-%
-%In general, $\mathrm{Obs}(\Xi)=0$ does not imply a flat connection.
-%\end{remark}
-%\pause
-%
-%So, what actually happens in the adjoint bundle of $\mathds{S}^7 \to \mathds{S}^4$? 
-%
-%$\rightsquigarrow$ Foliations
-%\end{frame}
-%}
-%
+	
+	
+\begin{center}
+\Warning We would lose the equivalence to the covariantised theory where we set $\Phi = \pi$ \Warning
+\end{center}
 
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+P \arrow["\Phi"]{rd} \arrow["\pi", swap]{d} \& \arrow[bend right]{l} M \times G \arrow{d} \\
+	M \arrow[equal]{r} \& M
+	\end{tikzcd}
+\end{center}
+\end{frame}
+
+\setbeamertemplate{frame footer}{
+S.-R.\ Fischer, M.\ Jalali Farahani, H.\ Kim, and C.\ Saemann. \textit{Adjusted connections I: Differential cocycles for principal groupoid bundles with connection}, arXiv: 2406.16755, 202. \newline 
+S.-R.\ Fischer. \textit{Integrating curved Yang–Mills gauge theories}, arXiv: 2210.02924, 2022.}
+
+\begin{frame}{New idea!}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+P \arrow["\Phi", swap]{rd} \arrow["\pi", swap]{d} \& \arrow[bend right]{l} \mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	M \& N
+	\end{tikzcd}
+\end{center}
+
+\begin{idea}[Ehresmann connection on $P$]
+Equip $\mathcal{G}$ with a horizontal distribution $\mathup{H}\mathcal{G}$ (w.r.t.\ $t$). An Ehresmann connection on $P$ is a horizontal distribution $\mathup{H}P$ (w.r.t.\ $\pi$) so that the infinitesimal $\mathcal{G}$-action on $P$ restricts 
+\bas
+\mathup{H}P \fibtimes{\mathup{D}\Phi}{\mathup{D}t} \mathup{H}\mathcal{G}
+&\to 
+\mathup{H}P.
+\eas
+\pause
+Invariance then via the \textbf{modified right-pushforward $\mathcal{r}_{g*}$}
+\bes
+\mathcal{r}_{g*}(X) \coloneqq X \cdot Y
+\ees
+for all $X \in \mathup{T}_pP$, where $Y \in \mathup{H}_g\mathcal{G}$ is the unique lift of $\mathup{D}_p\Phi(X)$.
+\end{idea}
+
+\end{frame}
 
 
 \section{Singular Foliations}

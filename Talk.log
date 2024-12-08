@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  5 DEC 2024 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  8 DEC 2024 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -234,11 +234,8 @@ Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-
-Package xcolor Warning: Package option `hyperref' is obsolete and ignored on in
-put line 266.
-
 Package xcolor Info: Driver file: pdftex.def on input line 274.
+
 (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
@@ -337,14 +334,10 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-
-
-Package xcolor Warning: Package option `hyperref' is obsolete and ignored on in
-put line 14.
-
 \XC@nummixins=\count298
 \XC@countmixins=\count299
-) (C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -413,7 +406,6 @@ Now handling font encoding PU ...
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4062.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4062.
-Package hyperref Info: Option `pdfpagelabels' set `false' on input line 4062.
 Package hyperref Info: Option `implicit' set `false' on input line 4062.
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
@@ -448,6 +440,7 @@ Package hyperref Info: backreferencing OFF on input line 6078.
 Package hyperref Info: Link coloring OFF on input line 6083.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
+\Hy@abspage=\count306
 
 
 Package hyperref Message: Stopped early.
@@ -456,17 +449,19 @@ Package hyperref Message: Stopped early.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
-\Fld@listcount=\count306
-\c@bookmark@seq@number=\count307
 
-(C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.s
-ty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
+\Fld@listcount=\count307
+\c@bookmark@seq@number=\count308
+
+(C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.s
+ty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.s
 ty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -509,39 +504,39 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbasemisc.sty)
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbasetwoscreens.sty
 ) (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbaseoverlay.sty
-\beamer@argscount=\count308
+\beamer@argscount=\count309
 \beamer@lastskipcover=\skip51
-\beamer@trivlistdepth=\count309
+\beamer@trivlistdepth=\count310
 ) (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbasetitle.sty)
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbasesection.sty
-\c@lecture=\count310
-\c@part=\count311
-\c@section=\count312
-\c@subsection=\count313
-\c@subsubsection=\count314
+\c@lecture=\count311
+\c@part=\count312
+\c@section=\count313
+\c@subsection=\count314
+\c@subsubsection=\count315
 )
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbaseframe.sty
 \beamer@framebox=\box66
 \beamer@frametitlebox=\box67
 \beamer@zoombox=\box68
-\beamer@zoomcount=\count315
-\beamer@zoomframecount=\count316
+\beamer@zoomcount=\count316
+\beamer@zoomframecount=\count317
 \beamer@frametextheight=\dimen271
-\c@subsectionslide=\count317
+\c@subsectionslide=\count318
 \beamer@frametopskip=\skip52
 \beamer@framebottomskip=\skip53
 \beamer@frametopskipautobreak=\skip54
 \beamer@framebottomskipautobreak=\skip55
 \beamer@envbody=\toks30
 \framewidth=\dimen272
-\c@framenumber=\count318
+\c@framenumber=\count319
 )
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbaseframesize.sty
 \beamer@splitbox=\box69
-\beamer@autobreakcount=\count319
+\beamer@autobreakcount=\count320
 \beamer@autobreaklastheight=\dimen273
 \beamer@frametitletoks=\toks31
 \beamer@framesubtitletoks=\toks32
@@ -578,8 +573,8 @@ Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks34
 )
 \beamer@bibiconwidth=\skip56
-\c@figure=\count320
-\c@table=\count321
+\c@figure=\count321
+\c@table=\count322
 \abovecaptionskip=\skip57
 \belowcaptionskip=\skip58
 )
@@ -610,14 +605,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count322
+\inf@bad=\count323
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count323
-\leftroot@=\count324
+\uproot@=\count324
+\leftroot@=\count325
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count325
-\DOTSCASE@=\count326
+\classnum@=\count326
+\DOTSCASE@=\count327
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -630,20 +625,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen285
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count327
+\macc@depth=\count328
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count328
+\c@MaxMatrixCols=\count329
 \dotsspace@=\muskip17
-\c@parentequation=\count329
-\dspbrk@lvl=\count330
+\c@parentequation=\count330
+\dspbrk@lvl=\count331
 \tag@help=\toks36
-\row@=\count331
-\column@=\count332
-\maxfields@=\count333
+\row@=\count332
+\column@=\count333
+\maxfields@=\count334
 \andhelp@=\toks37
 \eqnshift@=\dimen286
 \alignsep@=\dimen287
@@ -670,7 +665,7 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip64
 \dth@everypar=\toks45
 )
-\c@theorem=\count334
+\c@theorem=\count335
 )
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerbasethemes.sty))
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamer\beamerthemedefault.sty
@@ -775,14 +770,14 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ))
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count335
+\babel@savecnt=\count336
 \U@D=\dimen294
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3986.
-\bbl@dirlevel=\count336
+\bbl@dirlevel=\count337
 
 *************************************
 * Local config file bblopts.cfg used
@@ -804,10 +799,6 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-
-Package xcolor Warning: Package option `hyperref' is obsolete and ignored on in
-put line 8.
-
 (C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -853,7 +844,7 @@ Package: expl3 2024-01-22 L3 programming layer (loader)
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
+\l__color_backend_stack_int=\count338
 \l__pdf_internal_box=\box77
 ))
 Package: xparse 2023-10-10 L3 Experimental document command parser
@@ -863,21 +854,21 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count338
-\calc@Bcount=\count339
+\calc@Acount=\count339
+\calc@Bcount=\count340
 \calc@Adimen=\dimen295
 \calc@Bdimen=\dimen296
 \calc@Askip=\skip65
 \calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count340
+\calc@Ccount=\count341
 \calc@Cskip=\skip67
 )
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count341
+\g_MT_multlinerow_int=\count342
 \l_MT_multwidth_dim=\dimen297
 \origjot=\skip68
 \l_MT_shortvdotswithinadjustabove_dim=\dimen298
@@ -904,7 +895,7 @@ Package: leftindex 2020/08/25 v0.1beta
 )
 Now handling font encoding LS1 ...
 ... no UTF-8 mapping file for font encoding LS1
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 19.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 22.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
@@ -953,7 +944,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count342
+\pgf@plot@mark@count=\count343
 \pgfplotmarksize=\dimen315
 )
 \tikz@lastx=\dimen316
@@ -968,17 +959,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box85
 \tikz@tempbox=\box86
 \tikz@tempbox@bg=\box87
-\tikztreelevel=\count343
-\tikznumberofchildren=\count344
-\tikznumberofcurrentchild=\count345
-\tikz@fig@count=\count346
+\tikztreelevel=\count344
+\tikznumberofchildren=\count345
+\tikznumberofcurrentchild=\count346
+\tikz@fig@count=\count347
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count347
-\pgfmatrixcurrentcolumn=\count348
-\pgf@matrix@numberofcolumns=\count349
+\pgfmatrixcurrentrow=\count348
+\pgfmatrixcurrentcolumn=\count349
+\pgf@matrix@numberofcolumns=\count350
 )
-\tikz@expandcount=\count350
+\tikz@expandcount=\count351
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
@@ -1018,24 +1009,20 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@old@col=\dimen332
 \TX@target=\dimen333
 \TX@delta=\dimen334
-\TX@cols=\count351
+\TX@cols=\count352
 \TX@ftn=\toks51
 )
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen335
-\c@nlinenum=\count352
+\c@nlinenum=\count353
 \TeXr@lab=\toks52
 )
-
-Package xcolor Warning: Package option `hyperref' is obsolete and ignored on in
-put line 36.
-
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \everycr=\toks53
 \minrowclearance=\skip71
-\rownum=\count353
+\rownum=\count354
 )
 (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty
 (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
@@ -1047,8 +1034,8 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@tokb=\toks55
 \t@pgfplots@tokc=\toks56
 \pgfplots@tmpa=\dimen336
-\c@pgfplots@coordindex=\count354
-\c@pgfplots@scanlineindex=\count355
+\c@pgfplots@coordindex=\count355
+\c@pgfplots@scanlineindex=\count356
 
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex))
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
@@ -1069,13 +1056,13 @@ re.code.tex)
 reext.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.
 tex
-\c@pgfplotsarray@tmp=\count356
+\c@pgfplotsarray@tmp=\count357
 )
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code
 .tex)
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code
 .tex
-\c@pgfplotstable@counta=\count357
+\c@pgfplotstable@counta=\count358
 \t@pgfplotstable@a=\toks60
 )
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.
@@ -1086,7 +1073,7 @@ tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshadi
 ng.code.tex
-\c@pgfplotslibrarysurf@no=\count358
+\c@pgfplotslibrarysurf@no=\count359
 
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshadin
 g.pgfsys-pdftex.def)))
@@ -1110,7 +1097,7 @@ rydecorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen339
 \pgfdecoratedinputsegmentremainingdistance=\dimen340
 \pgf@decorate@distancetomove=\dimen341
-\pgf@decorate@repeatstate=\count359
+\pgf@decorate@repeatstate=\count360
 \pgfdecorationsegmentamplitude=\dimen342
 \pgfdecorationsegmentlength=\dimen343
 )
@@ -1126,7 +1113,7 @@ rydecorations.pathreplacing.code.tex
 tions.pathreplacing.code.tex))
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourl
 ua.code.tex)
-\pgfplots@numplots=\count360
+\pgfplots@numplots=\count361
 \pgfplots@xmin@reg=\dimen344
 \pgfplots@xmax@reg=\dimen345
 \pgfplots@ymin@reg=\dimen346
@@ -1141,6 +1128,10 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/newunicodechar\newunicodechar.s
+ty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/appendixnumberbeamer\appendixnu
 mberbeamer.sty)
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
@@ -1155,12 +1146,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen357
 \cmidrulekern=\dimen358
 \defaultaddspace=\dimen359
-\@cmidla=\count361
-\@cmidlb=\count362
+\@cmidla=\count362
+\@cmidlb=\count363
 \@aboverulesep=\dimen360
 \@belowrulesep=\dimen361
-\@thisruleclass=\count363
-\@lastruleclass=\count364
+\@thisruleclass=\count364
+\@lastruleclass=\count365
 \@thisrulewidth=\dimen362
 )
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/ccicons\ccicons.sty
@@ -1174,24 +1165,24 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks61
 \XKV@tempa@toks=\toks62
 )
-\XKV@depth=\count365
+\XKV@depth=\count366
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.dateplot
 .code.tex (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty
 (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfcalendarcurrentjulian=\count366
-\pgf@cal@easter@Y=\count367
-\pgf@cal@easter@G=\count368
-\pgf@cal@easter@C=\count369
-\pgf@cal@easter@X=\count370
-\pgf@cal@easter@Z=\count371
-\pgf@cal@easter@D=\count372
-\pgf@cal@easter@E=\count373
-\pgf@cal@easter@N=\count374
-\pgf@cal@easter@M=\count375
-\pgf@cal@easter@julianday=\count376
+\pgfcalendarcurrentjulian=\count367
+\pgf@cal@easter@Y=\count368
+\pgf@cal@easter@G=\count369
+\pgf@cal@easter@C=\count370
+\pgf@cal@easter@X=\count371
+\pgf@cal@easter@Z=\count372
+\pgf@cal@easter@D=\count373
+\pgf@cal@easter@E=\count374
+\pgf@cal@easter@N=\count375
+\pgf@cal@easter@M=\count376
+\pgf@cal@easter@julianday=\count377
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 ryfit.code.tex
@@ -1227,7 +1218,7 @@ Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count377
+\lrq@indent=\count378
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1235,49 +1226,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count378
-\c@listtotal=\count379
-\c@listcount=\count380
-\c@liststart=\count381
-\c@liststop=\count382
-\c@citecount=\count383
-\c@citetotal=\count384
-\c@multicitecount=\count385
-\c@multicitetotal=\count386
-\c@instcount=\count387
-\c@maxnames=\count388
-\c@minnames=\count389
-\c@maxitems=\count390
-\c@minitems=\count391
-\c@citecounter=\count392
-\c@maxcitecounter=\count393
-\c@savedcitecounter=\count394
-\c@uniquelist=\count395
-\c@uniquename=\count396
-\c@refsection=\count397
-\c@refsegment=\count398
-\c@maxextratitle=\count399
-\c@maxextratitleyear=\count400
-\c@maxextraname=\count401
-\c@maxextradate=\count402
-\c@maxextraalpha=\count403
-\c@abbrvpenalty=\count404
-\c@highnamepenalty=\count405
-\c@lownamepenalty=\count406
-\c@maxparens=\count407
-\c@parenlevel=\count408
-\blx@tempcnta=\count409
-\blx@tempcntb=\count410
-\blx@tempcntc=\count411
-\c@blx@maxsection=\count412
-\blx@maxsegment@0=\count413
-\blx@notetype=\count414
-\blx@parenlevel@text=\count415
-\blx@parenlevel@foot=\count416
-\blx@sectionciteorder@0=\count417
-\blx@sectionciteorderinternal@0=\count418
-\blx@entrysetcounter=\count419
-\blx@biblioinstance=\count420
+\c@tabx@nest=\count379
+\c@listtotal=\count380
+\c@listcount=\count381
+\c@liststart=\count382
+\c@liststop=\count383
+\c@citecount=\count384
+\c@citetotal=\count385
+\c@multicitecount=\count386
+\c@multicitetotal=\count387
+\c@instcount=\count388
+\c@maxnames=\count389
+\c@minnames=\count390
+\c@maxitems=\count391
+\c@minitems=\count392
+\c@citecounter=\count393
+\c@maxcitecounter=\count394
+\c@savedcitecounter=\count395
+\c@uniquelist=\count396
+\c@uniquename=\count397
+\c@refsection=\count398
+\c@refsegment=\count399
+\c@maxextratitle=\count400
+\c@maxextratitleyear=\count401
+\c@maxextraname=\count402
+\c@maxextradate=\count403
+\c@maxextraalpha=\count404
+\c@abbrvpenalty=\count405
+\c@highnamepenalty=\count406
+\c@lownamepenalty=\count407
+\c@maxparens=\count408
+\c@parenlevel=\count409
+\blx@tempcnta=\count410
+\blx@tempcntb=\count411
+\blx@tempcntc=\count412
+\c@blx@maxsection=\count413
+\blx@maxsegment@0=\count414
+\blx@notetype=\count415
+\blx@parenlevel@text=\count416
+\blx@parenlevel@foot=\count417
+\blx@sectionciteorder@0=\count418
+\blx@sectionciteorderinternal@0=\count419
+\blx@entrysetcounter=\count420
+\blx@biblioinstance=\count421
 \labelnumberwidth=\skip72
 \labelalphawidth=\skip73
 \biblabelsep=\skip74
@@ -1289,9 +1280,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language80
-\c@mincomprange=\count421
-\c@maxcomprange=\count422
-\c@mincompwidth=\count423
+\c@mincomprange=\count422
+\c@maxcomprange=\count423
+\c@mincompwidth=\count424
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1302,74 +1293,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count424
-\c@savedafterword=\count425
-\c@annotator=\count426
-\c@savedannotator=\count427
-\c@author=\count428
-\c@savedauthor=\count429
-\c@bookauthor=\count430
-\c@savedbookauthor=\count431
-\c@commentator=\count432
-\c@savedcommentator=\count433
-\c@editor=\count434
-\c@savededitor=\count435
-\c@editora=\count436
-\c@savededitora=\count437
-\c@editorb=\count438
-\c@savededitorb=\count439
-\c@editorc=\count440
-\c@savededitorc=\count441
-\c@foreword=\count442
-\c@savedforeword=\count443
-\c@holder=\count444
-\c@savedholder=\count445
-\c@introduction=\count446
-\c@savedintroduction=\count447
-\c@namea=\count448
-\c@savednamea=\count449
-\c@nameb=\count450
-\c@savednameb=\count451
-\c@namec=\count452
-\c@savednamec=\count453
-\c@translator=\count454
-\c@savedtranslator=\count455
-\c@shortauthor=\count456
-\c@savedshortauthor=\count457
-\c@shorteditor=\count458
-\c@savedshorteditor=\count459
-\c@labelname=\count460
-\c@savedlabelname=\count461
-\c@institution=\count462
-\c@savedinstitution=\count463
-\c@lista=\count464
-\c@savedlista=\count465
-\c@listb=\count466
-\c@savedlistb=\count467
-\c@listc=\count468
-\c@savedlistc=\count469
-\c@listd=\count470
-\c@savedlistd=\count471
-\c@liste=\count472
-\c@savedliste=\count473
-\c@listf=\count474
-\c@savedlistf=\count475
-\c@location=\count476
-\c@savedlocation=\count477
-\c@organization=\count478
-\c@savedorganization=\count479
-\c@origlocation=\count480
-\c@savedoriglocation=\count481
-\c@origpublisher=\count482
-\c@savedorigpublisher=\count483
-\c@publisher=\count484
-\c@savedpublisher=\count485
-\c@language=\count486
-\c@savedlanguage=\count487
-\c@origlanguage=\count488
-\c@savedoriglanguage=\count489
-\c@pageref=\count490
-\c@savedpageref=\count491
+\c@afterword=\count425
+\c@savedafterword=\count426
+\c@annotator=\count427
+\c@savedannotator=\count428
+\c@author=\count429
+\c@savedauthor=\count430
+\c@bookauthor=\count431
+\c@savedbookauthor=\count432
+\c@commentator=\count433
+\c@savedcommentator=\count434
+\c@editor=\count435
+\c@savededitor=\count436
+\c@editora=\count437
+\c@savededitora=\count438
+\c@editorb=\count439
+\c@savededitorb=\count440
+\c@editorc=\count441
+\c@savededitorc=\count442
+\c@foreword=\count443
+\c@savedforeword=\count444
+\c@holder=\count445
+\c@savedholder=\count446
+\c@introduction=\count447
+\c@savedintroduction=\count448
+\c@namea=\count449
+\c@savednamea=\count450
+\c@nameb=\count451
+\c@savednameb=\count452
+\c@namec=\count453
+\c@savednamec=\count454
+\c@translator=\count455
+\c@savedtranslator=\count456
+\c@shortauthor=\count457
+\c@savedshortauthor=\count458
+\c@shorteditor=\count459
+\c@savedshorteditor=\count460
+\c@labelname=\count461
+\c@savedlabelname=\count462
+\c@institution=\count463
+\c@savedinstitution=\count464
+\c@lista=\count465
+\c@savedlista=\count466
+\c@listb=\count467
+\c@savedlistb=\count468
+\c@listc=\count469
+\c@savedlistc=\count470
+\c@listd=\count471
+\c@savedlistd=\count472
+\c@liste=\count473
+\c@savedliste=\count474
+\c@listf=\count475
+\c@savedlistf=\count476
+\c@location=\count477
+\c@savedlocation=\count478
+\c@organization=\count479
+\c@savedorganization=\count480
+\c@origlocation=\count481
+\c@savedoriglocation=\count482
+\c@origpublisher=\count483
+\c@savedorigpublisher=\count484
+\c@publisher=\count485
+\c@savedpublisher=\count486
+\c@language=\count487
+\c@savedlanguage=\count488
+\c@origlanguage=\count489
+\c@savedoriglanguage=\count490
+\c@pageref=\count491
+\c@savedpageref=\count492
 \shorthandwidth=\skip80
 \shortjournalwidth=\skip81
 \shortserieswidth=\skip82
@@ -1395,19 +1386,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count492
-\c@textcitetotal=\count493
-\c@textcitemaxnames=\count494
-\c@biburlbigbreakpenalty=\count495
-\c@biburlbreakpenalty=\count496
-\c@biburlnumpenalty=\count497
-\c@biburlucpenalty=\count498
-\c@biburllcpenalty=\count499
+\c@textcitecount=\count493
+\c@textcitetotal=\count494
+\c@textcitemaxnames=\count495
+\c@biburlbigbreakpenalty=\count496
+\c@biburlbreakpenalty=\count497
+\c@biburlnumpenalty=\count498
+\c@biburlucpenalty=\count499
+\c@biburllcpenalty=\count500
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count500
+\c@smartand=\count501
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1419,8 +1410,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count501
-\c@bbx:relatedtotal=\count502
+\c@bbx:relatedcount=\count502
+\c@bbx:relatedtotal=\count503
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1457,7 +1448,7 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\CJK*' on input line 106.
+(hyperref)                removing `\CJK*' on input line 119.
 
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamertheme-metropolis\beamerth
@@ -1508,8 +1499,8 @@ aTeX to use the Fira fonts on input line 95.
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count503
-\@quotereset=\count504
+\@quotelevel=\count504
+\@quotereset=\count505
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamertheme-metropolis\pgfplots
 themetol.sty
@@ -1517,102 +1508,102 @@ Package: pgfplotsthemetol 2017/01/23 PGFplots colors based on Paul Tol's SRON t
 echnical note
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-202.
+215.
  (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (Talk.aux)
 \openout1 = `Talk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 202.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 215.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-202.
+215.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stix\ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    ... okay on input line 215.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1650,16 +1641,16 @@ LaTeX Font Info:    ... okay on input line 202.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count505
+\scratchcounter=\count506
 \scratchdimen=\dimen363
 \scratchbox=\box93
-\nofMPsegments=\count506
-\nofMParguments=\count507
+\nofMPsegments=\count507
+\nofMParguments=\count508
 \everyMPshowfont=\toks65
-\MPscratchCnt=\count508
+\MPscratchCnt=\count509
 \MPscratchDim=\dimen364
-\MPnumerator=\count509
-\makeMPintoPDFobject=\count510
+\MPnumerator=\count510
+\makeMPintoPDFobject=\count511
 \everyMPtoPDFconversion=\toks66
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1669,58 +1660,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 202.
+Package hyperref Info: Link coloring OFF on input line 215.
  (Talk.out)
 (Talk.out)
 \@outlinefile=\write6
 \openout6 = `Talk.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 202.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 215.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 202.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 215.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 202.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 215.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 202.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 215.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 202.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 202.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 215.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 202.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 202.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 202.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 215.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 202.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 202.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 202.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 215.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 202.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 202.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 202.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 215.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 202.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 202.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 215.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 202.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 215.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 202.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 202.
+(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 202.
+(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 202.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 202.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 215.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 202.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 215.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/translator\translator-basic-dic
 tionary-English.dict
@@ -1762,12 +1753,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Talk.bbl' found.
  (Talk.bbl)
-Package biblatex Info: Reference section=0 on input line 202.
-Package biblatex Info: Reference segment=0 on input line 202.
+Package biblatex Info: Reference section=0 on input line 215.
+Package biblatex Info: Reference segment=0 on input line 215.
 
 (Talk.nav)
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 208.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 221.
 
  (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
@@ -1779,7 +1770,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 LaTeX Font Info:    Trying to load font information for C70+bkai on input line 
-208.
+221.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
 File: c70bkai.fd 2021/10/16 4.8.5
@@ -1789,81 +1780,81 @@ File: c70bkai.fdx 2021/10/16 4.8.5
 )
 
 LaTeX Font Warning: Font shape `C70/bkai/m/it' undefined
-(Font)              using `C70/bkai/m/n' instead on input line 208.
+(Font)              using `C70/bkai/m/n' instead on input line 221.
 
-<Logo_Uni_Göttingen_2022.png, id=51, 722.7pt x 128.8815pt>
+<Logo_Uni_Göttingen_2022.png, id=43, 722.7pt x 128.8815pt>
 File: Logo_Uni_Göttingen_2022.png Graphic file (type png)
 <use Logo_Uni_Göttingen_2022.png>
-Package pdftex.def Info: Logo_Uni_Göttingen_2022.png  used on input line 208.
+Package pdftex.def Info: Logo_Uni_Göttingen_2022.png  used on input line 221.
 (pdftex.def)             Requested size: 214.34332pt x 38.22423pt.
 
-Overfull \vbox (39.39339pt too high) detected at line 208
+Overfull \vbox (39.39339pt too high) detected at line 221
  []
 
 [1
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
 es/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./Logo_Uni_Göttingen_2022.png>]
-<Research circles I.pdf, id=67, 384.30576pt x 158.05048pt>
+<Research circles I.pdf, id=59, 384.30576pt x 158.05048pt>
 File: Research circles I.pdf Graphic file (type pdf)
 <use Research circles I.pdf>
-Package pdftex.def Info: Research circles I.pdf  used on input line 221.
+Package pdftex.def Info: Research circles I.pdf  used on input line 234.
 (pdftex.def)             Requested size: 428.68665pt x 176.31111pt.
 
 [2
 
  <./Research circles I.pdf>]
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-24.
+37.
  (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-224.
+237.
 (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-224.
+237.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 224.
+(Font)              <10> on input line 237.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 224.
+(Font)              <7> on input line 237.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 224.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 224
+(Font)              <5> on input line 237.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 237
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 224
+LaTeX Font Info:    Trying to load font information for U+msb on input line 237
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-24.
+37.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 224.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 237.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 224.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 237.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 224.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 237.
 
  [3
 
 ]
-Overfull \hbox (0.94975pt too wide) in paragraph at lines 249--249
+Overfull \hbox (0.94975pt too wide) in paragraph at lines 265--265
 [][] 
  []
 
@@ -1871,22 +1862,30 @@ Overfull \hbox (0.94975pt too wide) in paragraph at lines 249--249
 
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiK
 TeX/fonts/enc/dvips/lm/lm-mathit.enc}]
-Overfull \hbox (0.94975pt too wide) in paragraph at lines 273--273
+Overfull \hbox (0.94975pt too wide) in paragraph at lines 292--292
 [][] 
+ []
+
+
+Overfull \vbox (7.63167pt too high) detected at line 292
  []
 
 [5
 
 ]
-Overfull \hbox (0.94975pt too wide) in paragraph at lines 297--297
+Overfull \hbox (0.94975pt too wide) in paragraph at lines 319--319
 [][] 
+ []
+
+
+Overfull \vbox (9.76123pt too high) detected at line 319
  []
 
 [6
 
 ]
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 346.
+ne 350.
  (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stix\ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
@@ -1900,26 +1899,9 @@ File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 
 ] [11
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] (C:\Program Files\M
-iKTeX\tex/latex/amsfonts\ueuf.fd)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 449.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 449.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 449.
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [12
 
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 449.
-
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-449.
-
-(C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [12
-
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [13
+] [13
 
 ] [14
 
@@ -1928,26 +1910,70 @@ File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ] [16
 
 ]
-<Foliation connection.png, id=168, 672.01062pt x 390.45876pt>
+Underfull \hbox (badness 10000) in alignment at lines 571--571
+[][][] 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 571.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 571.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 571.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 571.
+
+
+Overfull \vbox (12.05049pt too high) detected at line 571
+ []
+
+[17
+
+]
+Overfull \vbox (6.03122pt too high) detected at line 600
+ []
+
+[18
+
+]
+Overfull \vbox (6.03122pt too high) detected at line 600
+ []
+
+[19
+
+] [20
+
+] [21
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+673.
+ (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [22
+
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+<Foliation connection.png, id=191, 672.01062pt x 390.45876pt>
 File: Foliation connection.png Graphic file (type png)
 <use Foliation connection.png>
-Package pdftex.def Info: Foliation connection.png  used on input line 1021.
+Package pdftex.def Info: Foliation connection.png  used on input line 691.
 (pdftex.def)             Requested size: 342.95062pt x 199.26239pt.
- [17
+ [23
 
  <./Foliation connection.png>]
 File: Foliation connection.png Graphic file (type png)
 <use Foliation connection.png>
-Package pdftex.def Info: Foliation connection.png  used on input line 1041.
+Package pdftex.def Info: Foliation connection.png  used on input line 711.
 (pdftex.def)             Requested size: 171.47203pt x 99.62822pt.
- [18
+[24
 
-] [19
+] [25
 
 ]
 \openout4 = `Talk.vrb'.
 
- (Talk.vrb) [20
+ (Talk.vrb) [26
 
 ]
 \tf@nav=\write7
@@ -1969,39 +1995,44 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Talk.out' has not changed.
-(rerunfilecheck)             Checksum: D4D4FDF332F4290A4E96760192556625;1329.
+(rerunfilecheck)             Checksum: EC048A175A1592DB04B1E72F0FA4FC1F;972.
 Package logreq Info: Writing requests to 'Talk.run.xml'.
 \openout1 = `Talk.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 323 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 48990 strings out of 474542
- 1127325 string characters out of 5754265
- 1981108 words of memory out of 5000000
- 70235 multiletter control sequences out of 15000+600000
- 621987 words of font info for 96 fonts, out of 8000000 for 9000
+ 49443 strings out of 474542
+ 1138312 string characters out of 5754265
+ 1982507 words of memory out of 5000000
+ 70682 multiletter control sequences out of 15000+600000
+ 620831 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,123p,1873b,1743s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu70.pfb><C
-:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu91.pfb><C:/Us
-ers/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
-c/lm/lmsso8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/lm/lmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
-msy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pf
-b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/U
-sers/User/AppData/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb>
-Output written on Talk.pdf (20 pages, 513317 bytes).
+ 128i,17n,123p,1873b,2214s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/
+bkaiu70.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkai
+u91.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi
+7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/lm/lmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/lm/lmsso9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/s
+ymbols/msbm10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/public/stix
+/stix-mathscr.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/public/hoek
+water/stmary10.pfb>
+Output written on Talk.pdf (26 pages, 530301 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
