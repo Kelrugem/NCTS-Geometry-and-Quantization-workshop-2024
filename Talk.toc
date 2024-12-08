@@ -1,7 +1,5 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Curved Yang-Mills-Higgs theory \& their Ehresmann connections}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Motivation}{4}{0}{1}
-\beamer@sectionintoc {2}{Singular Foliations}{25}{0}{2}
-\beamer@subsectionintoc {2}{1}{Why foliations?}{26}{0}{2}
-\beamer@subsectionintoc {2}{2}{Idea: Relation to gauge theory}{28}{0}{2}
-\beamer@subsectionintoc {2}{3}{Result}{30}{0}{2}
+\beamer@sectionintoc {2}{Curved Yang-Mills gauge theory}{25}{0}{2}
+\beamer@sectionintoc {3}{Examples}{30}{0}{3}

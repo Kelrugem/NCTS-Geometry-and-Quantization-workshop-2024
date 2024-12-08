@@ -678,131 +678,97 @@ Vice versa, if $\mathup{H}\mathcal{G}$ is Cartan, then such $\mathup{H}P$ exist.
 \end{remark}
 \end{frame}
 
+\setbeamertemplate{frame footer}{}
+
 \begin{frame}{What else?}
 \begin{idea}
-Open textbook about ordinary gauge theory, and replace appearing notions with the corresponding notions of curved theories and Lie groupoids:
+Open a textbook about ordinary gauge theory, and replace appearing notions with the corresponding notions of curved theories and Lie groupoids:
 \begin{itemize}
-	\item Right-Invariance
+	\item Right-pushforward $\rightsquigarrow$ Modified right-pushforward,
+	\item Adjoint representation $\rightsquigarrow$ Adjoint representation via Cartan connections (?)
+	\item Generalising the concept of field strength accounting for a possible curvature coming from $\mathcal{G}$
 \end{itemize}
+We would also need to introduce and discuss Lie algebroids, Lie algebroid connections, basic curvature, basic connections, and so on...
+
+Thus, for today: LGBs!
 \end{idea}
 \end{frame}
 
+\section{Curved Yang-Mills gauge theory}
 
-\section{Singular Foliations}
+\setbeamertemplate{frame footer}{
+S.-R.\ Fischer. \textit{Integrating curved Yang–Mills gauge theories}, arXiv: 2210.02924, 2022.}
 
-%{
-%\section[Singular Foliations]{Applications: Classifying singular foliations \\(joint work w/ Camille Laurent-Gengoux)}
-%}
-\subsection{Why foliations?}
-{
-%\setbeamertemplate{footline}
-{
+\begin{frame}
+%\begin{remark}
+Gauge invariance requires us to study \emph{special} Cartan connections:
+%\end{remark}
 
-}
-\begin{frame}{Example of a singular foliation}
-\begin{center}
-\begin{tikzpicture}
-\coordinate (O) at (0,0);
-%\foreach \j in {1,...,3} \draw (O) circle (3.5-\j);
-%\foreach \k/\text in {0/Should be here any!,1/There is a way?,2/Wee} \draw[decoration={text along path,reverse path,text align={align=center},text={\text}},decorate] (2.6-\k,0) arc (0:180:2.6-\k);
-\foreach \k in {1,...,4}\pgfmathparse{12*\k} \draw[fill=blue!\pgfmathresult] (O) circle (3.6-0.8*\k) node at (0, 3) {$\mathbb{S}^n$};
-%\foreach \k/\text in {0/{$S^n$},1/,2/,3/} \draw[decoration={text along path,reverse path,text align={align=center},text={\text}},decorate] (2.9-0.8*\k,0) arc (0:180:2.9-0.8*\k);
-\fill (O) circle[radius=2pt];
-%\begin{scope}[xshift=2.2cm, yshift=-1.8cm]
-%\begin{axis}[ scale = 1,
-            %hide axis,
-            %%axis lines=middle,
-%%            axis on top,
-%%            axis line style={blue,dashed,thick},
-%%            ymin=-2,ymax=2,
-%%            xmin=-2,xmax=2,
-%%            zmin=-2,zmax=2,
-            %samples=40,
-            %domain=0:360,
-            %y domain=0:1.25,clip=false
-        %]
-        %\addplot3 [surf, shader=flat, draw=black, fill=gray!10!white, z buffer=sort]
-           %({sin(x)*y}, {cos(x)*y}, {(y^2-1)^2});
-        %\draw[blue,thick,dashed] (axis cs:0,0,0) -- (axis cs:1,0,0)
-                    %node[below,font=\footnotesize]{};
-        %\draw[blue,thick,-stealth] (axis cs:1,0,0) -- (axis cs:1.3,0,0)
-                    %node[above,font=\footnotesize]{};
-        %\draw[blue,thick,dashed] (axis cs:0,0,0) -- (axis cs:0,-1,0)
-                    %node[left=2mm,font=\footnotesize]{}; %{Label} am Ende 
-        %\draw[blue,thick,-stealth] (axis cs:0,-1,0) -- (axis cs:0,-1.5,0)
-                    %node[right=1mm,font=\footnotesize]{};
-        %\draw[blue,thick,dashed] (axis cs:0,0,0) -- (axis cs:0,0,1)
-                    %%node[left=2mm,font=\footnotesize]{$\phi_{\text{RE}}$}
-                    %;
-        %\draw[blue,thick,-stealth] (axis cs:0,0,1) -- (axis cs:0,0,1.3);
-%\end{axis}
-%\end{scope}
-%\draw[line width=2mm,>={Triangle[length=3mm,width=5mm]},->] (2.6,0) -- (3.8,0);
-\end{tikzpicture}
-\end{center}
-\end{frame}
-}
+\begin{definition}[Multiplicative Yang-Mills connections]\vspace{.5pt}
+A connection 1-form $\mu_{\mathcal{G}}$ on an LGB $\mathcal{G}$ is a \textbf{multiplicative Yang-Mills connection (w.r.t.\ a $\zeta \in \Omega^2(M; \mathcal{g})$)} if it is a Cartan connection satisfying the \textbf{generalised Maurer-Cartan equation}:
+	\bas
+	\mleft.\mleft(\mathrm{d}^{\pi_{\mathcal{G}}^*\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
+	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\pi_{\mathcal{G}}^*\mathcal{g}} \mright)\mright|_g
+&=
+\mathrm{Ad}_{g^{-1}} \circ \mleft.\pi_{\mathcal{G}}^!\zeta\mright|_g
+	- \mleft.\pi_{\mathcal{G}}^!\zeta\mright|_g
+	\eas
+for all $g \in \mathcal{G}$, where $\mathcal{g}$ is the Lie algebra bundle (LAB) of $\mathcal{G}$, and $\nabla^\mathcal{G}$ is the naturally induced LAB connection.
+\end{definition}
 
-{
-%\setbeamertemplate{footline}{}
-\begin{frame}{Foliations are widespread}
-\textbf{Singular Foliations:}
+\pause
 
-\begin{itemize}
-	\item Gauge Theory
-	\item Poisson Geometry \newline (Singular foliation of symplectic leaves)
-	\item Lie groupoids and algebroids
-	\item Dirac structures
-	\item Generalised complex manifolds
-	\item Non-commutative geometry
-	\item $\dotsc$
-\end{itemize}
-
-\end{frame}
-}
-
-
-
-
-\subsection{Idea: Relation to gauge theory}
-
-\setbeamertemplate{frame footer}{{Camille Laurent-Gengoux and Leonid Ryvkin, The holonomy of a singular leaf, \textit{Selecta Mathematica 28}, no.\ 2, 45, 2022.}}
-
-\begin{frame}{Unique transverse structure}
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=.8\textwidth]{Foliation connection.png}
-	%\caption{$\mathcal{F}$-connections}
-	\label{fig:Foliation connection}
-\end{figure}
-
-\end{frame}
-
-\setbeamertemplate{frame footer}{{Source of the existence of connection on normal bundle: Camille Laurent-Gengoux and Leonid Ryvkin, The holonomy of a singular leaf, \newline \textit{Selecta Mathematica 28}, no.\ 2, 45, 2022.}}
-
-\begin{frame}{How to classify singular foliations?}
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.4\textwidth]{Foliation connection.png}
-	%\caption{$\mathcal{F}$-connections}
-	\label{fig:Foliation connection Zwei}
-\end{figure}
-
-\begin{remark}[{[C.\ L.-G., S.-R.\ F.]}]
-There is a connection on the normal bundle of a leaf $L$ preserving the foliation!
-\begin{itemize}
-	\item Transverse structure is unique: Classify singular foliation $\mathcal{F}$ like a bundle!
-	\item Connection is a multiplicative Yang-Mills connection: Use curved gauge theory!
-\end{itemize}
+\begin{remark}
+Infinitesimally we have
+\bes
+R_{\nabla^{\mathcal{G}}} = \mathup{ad} \circ \zeta.
+\ees
 \end{remark}
+\end{frame}
+
+\begin{frame}
+\begin{definition}\vspace{.5pt}
+The field strength $F$ of an Ehresmann connection $A \in \Omega^1(P; \pi^*\mathcal{G})$ on $\pi \colon P \to M$ is defined by 
+\bes
+F
+\coloneqq
+\mathrm{d}^{\pi^*\nabla^{\mathcal{G}}} A
+	+ \frac{1}{2} \mleft[ A \stackrel{\wedge}{,} A \mright]_{\pi^*\mathcal{g}}
+	+ \pi^!\zeta.
+\ees
+\end{definition}
+\pause
+\begin{theorem}\vspace{.5pt}
+By contracting $F$ with an $\mathup{ad}$-invariant scalar product we achieve a gauge-invariant Lagrangian $\mathcal{L}[A]$, that is,
+\bes
+\mathcal{L}\mleft[L^!A\mright]
+=
+\mathcal{L}[A]
+\ees
+for all $L \in \mathup{Aut}(P)$.
+\end{theorem}
+\end{frame}
+
+\section{Examples}
+
+\begin{frame}
 
 \end{frame}
 
-\subsection{Result}
-\setbeamertemplate{frame footer}{}
-{
-%\setbeamertemplate{footline}{}
-%\begin{frame}{Result}
+
+\begin{frame}[standout]
+\thispagestyle{empty}
+\topmargin -3.46 cm
+\vspace*{\fill}
+\begin{center}
+\huge \textbf{Thank you!}
+\end{center}
+\vspace*{\fill}
+\end{frame}
+
+%\appendix
+
+%\begin{frame}[fragile]{Classification of singular foliations}
 %\begin{block}{Theorem ([C.\ L.-G., S.-R.\ F.])}
 %\vspace{.5pt}
 %Formal singular foliations with leaf $L$ and transverse model $(\mathbb{R}^d, \tau_l)$ are equivalent to:
@@ -821,61 +787,8 @@ There is a connection on the normal bundle of a leaf $L$ preserving the foliatio
 	%\item A principal $H$-bundle $P$ over $L$
 %\end{itemize}
 %\end{block}
-%\end{frame}
-
-
-%\begin{frame}
-%\begin{remark}[Classification of curved Yang-Mills gauge theories]
-%If $\mathcal{G}$ acts faithfully on the normal bundle $\mathcal{T}$, preserving $L$, then a curved Yang-Mills gauge theory can be flattened if and only if there is flat lift .
-%\end{remark}
 %
-%\begin{table}[h!]
-		%\begin{tabularx}{\textwidth}{X X}
-			%\rowcolor{gray}
-			%Curved YM Gauge Theory & Singular Foliations $\mathcal{F}$ \\
-			%Multiplicative Yang-Mills connection & $\mathcal{F}$-connection \\
-			%\rowcolor{Gray}
-			%Flat gauge theory & Flat singular foliation \\
-			%Field redefinition of connection on $\mathcal{G}$ & Different choice of $\mathcal{F}$-connection
-		%\end{tabularx}
-%\end{table}
 %\end{frame}
-
-}
-
-\begin{frame}[standout]
-\thispagestyle{empty}
-\topmargin -3.46 cm
-\vspace*{\fill}
-\begin{center}
-\huge \textbf{Thank you!}
-\end{center}
-\vspace*{\fill}
-\end{frame}
-
-\appendix
-
-\begin{frame}[fragile]{Classification of singular foliations}
-\begin{block}{Theorem ([C.\ L.-G., S.-R.\ F.])}
-\vspace{.5pt}
-Formal singular foliations with leaf $L$ and transverse model $(\mathbb{R}^d, \tau_l)$ are equivalent to:
-\begin{itemize}
-	\item A Galois cover $L'$ over $L$ with structural group $K$
-	\item A short exact sequence of groups
-	\begin{center}
-		\begin{tikzcd}[ampersand replacement=\&]
-		\mathup{Inner}(\tau_l) \arrow[hook]{r}
-		\&
-		H \arrow[two heads]{r}
-		\&
-		K
-		\end{tikzcd}
-	\end{center}
-	\item A principal $H$-bundle $P$ over $L$
-\end{itemize}
-\end{block}
-
-\end{frame}
 
 \end{document}
 

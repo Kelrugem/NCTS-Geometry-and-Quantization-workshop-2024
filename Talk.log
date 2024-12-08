@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  8 DEC 2024 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  8 DEC 2024 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1782,7 +1782,7 @@ File: c70bkai.fdx 2021/10/16 4.8.5
 LaTeX Font Warning: Font shape `C70/bkai/m/it' undefined
 (Font)              using `C70/bkai/m/n' instead on input line 221.
 
-<Logo_Uni_Göttingen_2022.png, id=43, 722.7pt x 128.8815pt>
+<Logo_Uni_Göttingen_2022.png, id=31, 722.7pt x 128.8815pt>
 File: Logo_Uni_Göttingen_2022.png Graphic file (type png)
 <use Logo_Uni_Göttingen_2022.png>
 Package pdftex.def Info: Logo_Uni_Göttingen_2022.png  used on input line 221.
@@ -1795,7 +1795,7 @@ Overfull \vbox (39.39339pt too high) detected at line 221
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
 es/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./Logo_Uni_Göttingen_2022.png>]
-<Research circles I.pdf, id=59, 384.30576pt x 158.05048pt>
+<Research circles I.pdf, id=47, 384.30576pt x 158.05048pt>
 File: Research circles I.pdf Graphic file (type pdf)
 <use Research circles I.pdf>
 Package pdftex.def Info: Research circles I.pdf  used on input line 234.
@@ -1958,41 +1958,33 @@ Overfull \vbox (8.67242pt too high) detected at line 655
 
 ] [23
 
-] [24
-
-] [25
-
-] [26
-
 ]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-756.
+695.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-[27
+) [24
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<Foliation connection.png, id=220, 672.01062pt x 390.45876pt>
-File: Foliation connection.png Graphic file (type png)
-<use Foliation connection.png>
-Package pdftex.def Info: Foliation connection.png  used on input line 774.
-(pdftex.def)             Requested size: 342.95062pt x 199.26239pt.
- [28
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [25
 
- <./Foliation connection.png>]
-File: Foliation connection.png Graphic file (type png)
-<use Foliation connection.png>
-Package pdftex.def Info: Foliation connection.png  used on input line 794.
-(pdftex.def)             Requested size: 171.47203pt x 99.62822pt.
- [29
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
+27.
+
+(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [26
+
+] [27
+
+] [28
+
+] [29
 
 ] [30
 
 ]
-\openout4 = `Talk.vrb'.
-
- (Talk.vrb) [31
+[31
 
 ]
 \tf@nav=\write7
@@ -2013,17 +2005,8 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Talk.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Talk.out':
-(rerunfilecheck)             Before: A0378EC36E569F8D3E779C42B5CF259E;1137
-(rerunfilecheck)             After:  CB96406F529AB83CF82A13F57B86EA04;1137.
+Package rerunfilecheck Info: File `Talk.out' has not changed.
+(rerunfilecheck)             Checksum: D84C2613E6B4E545B1D95DBE63A3A03F;756.
 Package logreq Info: Writing requests to 'Talk.run.xml'.
 \openout1 = `Talk.run.xml'.
 
@@ -2033,46 +2016,34 @@ Package logreq Info: Writing requests to 'Talk.run.xml'.
 ### simple group (level 1) entered at line 323 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 49517 strings out of 474542
- 1139849 string characters out of 5754265
- 1982509 words of memory out of 5000000
- 70742 multiletter control sequences out of 15000+600000
- 623582 words of font info for 92 fonts, out of 8000000 for 9000
+ 49424 strings out of 474542
+ 1137882 string characters out of 5754265
+ 1982392 words of memory out of 5000000
+ 70654 multiletter control sequences out of 15000+600000
+ 632391 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,1873b,2238s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Outline0.2.3.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.2.2.27} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.2.1.25} has been referenced but does not e
-xist, replaced by a fixed one
-
-<C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu70.pfb><C:/
-Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu91.pfb><C:/User
-s/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm
-/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/
-type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso8.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/lm/lmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/Ap
-pData/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/Ap
-pData/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Talk.pdf (31 pages, 569381 bytes).
+ 128i,20n,123p,1873b,2156s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/
+bkaiu70.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkai
+u91.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi
+7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiK
+TeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso8.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+lm/lmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/User/A
+ppData/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/A
+ppData/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
+Output written on Talk.pdf (31 pages, 467966 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
