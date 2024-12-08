@@ -234,7 +234,7 @@ aspectratio=3218,
 \end{frame} 
 }
 
-\section{Curved Yang-Mills-Higgs theory}
+\section{Curved Yang-Mills-Higgs theory \& their Ehresmann connections}
 
 \subsection{Motivation}
 
@@ -584,11 +584,11 @@ P \arrow["\Phi", swap]{rd} \arrow["\pi", swap]{d} \& \arrow[bend right]{l} \math
 
 \begin{idea}[Ehresmann connection on $P$]
 Equip $\mathcal{G}$ with a horizontal distribution $\mathup{H}\mathcal{G}$ (w.r.t.\ $t$). An Ehresmann connection on $P$ is a horizontal distribution $\mathup{H}P$ (w.r.t.\ $\pi$) so that the infinitesimal $\mathcal{G}$-action on $P$ restricts 
-\bas
+\bes
 \mathup{H}P \fibtimes{\mathup{D}\Phi}{\mathup{D}t} \mathup{H}\mathcal{G}
-&\to 
+\to 
 \mathup{H}P.
-\eas
+\ees
 \pause
 Invariance then via the \textbf{modified right-pushforward $\mathcal{r}_{g*}$}
 \bes
@@ -597,6 +597,94 @@ Invariance then via the \textbf{modified right-pushforward $\mathcal{r}_{g*}$}
 for all $X \in \mathup{T}_pP$, where $Y \in \mathup{H}_g\mathcal{G}$ is the unique lift of $\mathup{D}_p\Phi(X)$.
 \end{idea}
 
+\end{frame}
+
+\begin{frame}
+\begin{idea}
+$\mathup{H}P$ Ehresmann, then
+\bes
+\mathup{H}P \fibtimes{\mathup{D}\Phi}{\mathup{D}t} \mathup{H}\mathcal{G}
+\to 
+\mathup{H}P.
+\ees
+\end{idea}
+
+\begin{theorem}\vspace{.5pt}
+Given such an $\mathup{H}P$, then $\mathup{H}\mathcal{G}$ is \textbf{Cartan},
+\bes
+\mathup{H}\mathcal{G} \fibtimes{\mathup{D}s}{\mathup{D}t} \mathup{H}\mathcal{G}
+\to 
+\mathup{H}\mathcal{G}.
+\ees
+\end{theorem}
+\pause
+\begin{proof}[Sketch as a proof for LGBs]\vspace{.5pt}
+W.r.t.\ parallel transports we have
+\bes
+\mathup{PT}^P(p\cdot g) = \mathup{PT}^P(p) \cdot \mathup{PT}^{\mathcal{G}}(g).
+\ees
+\end{proof}
+\end{frame}
+
+\begin{frame}
+\begin{theorem}\vspace{.5pt}
+Given such an $\mathup{H}P$, then $\mathup{H}\mathcal{G}$ is \textbf{Cartan},
+\bes
+\mathup{H}\mathcal{G} \fibtimes{\mathup{D}s}{\mathup{D}t} \mathup{H}\mathcal{G}
+\to 
+\mathup{H}\mathcal{G}.
+\ees
+\end{theorem}
+
+\begin{proof}[Sketch as a proof for LGBs]\vspace{.5pt}
+W.r.t.\ parallel transports we have
+\bes
+\mathup{PT}^P(p\cdot g) = \mathup{PT}^P(p) \cdot \mathup{PT}^{\mathcal{G}}(g),
+\ees
+then
+\begin{center}
+\begin{tikzcd}[ampersand replacement=\&]
+\mathup{PT}^P\bigl(p\cdot (gq)\bigr) \arrow[equal]{d} 
+\& \arrow[equal]{l} \mathup{PT}^P(p) \cdot \mathup{PT}^{\mathcal{G}}(gq)
+\\
+\mathup{PT}^P\bigl((p\cdot g) \cdot q\bigr) \arrow[equal]{r}
+\& \mathup{PT}^P(p) \cdot \mleft( \mathup{PT}^{\mathcal{G}}(g) ~ \mathup{PT}^{\mathcal{G}}(q) \mright).
+\end{tikzcd}
+\end{center}
+\end{proof}
+\end{frame}
+
+\begin{frame}
+\begin{idea}
+$\mathup{H}P$ Ehresmann, then
+\bes
+\mathup{H}P \fibtimes{\mathup{D}\Phi}{\mathup{D}t} \mathup{H}\mathcal{G}
+\to 
+\mathup{H}P.
+\ees
+\end{idea}
+
+\begin{theorem}\vspace{.5pt}
+Given such an $\mathup{H}P$, then $\mathup{H}\mathcal{G}$ is \textbf{Cartan},
+\bes
+\mathup{H}\mathcal{G} \fibtimes{\mathup{D}s}{\mathup{D}t} \mathup{H}\mathcal{G}
+\to 
+\mathup{H}\mathcal{G}.
+\ees
+\end{theorem}
+
+\begin{remark}
+Vice versa, if $\mathup{H}\mathcal{G}$ is Cartan, then such $\mathup{H}P$ exist.
+\end{remark}
+\end{frame}
+
+\begin{frame}{What else?}
+\begin{idea}
+Open textbook about ordinary gauge theory, and replace appearing notions with the corresponding notions of curved theories and Lie groupoids:
+\begin{itemize}
+	\item Right-Invariance
+\end{itemize}
+\end{idea}
 \end{frame}
 
 

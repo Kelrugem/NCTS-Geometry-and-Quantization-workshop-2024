@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  8 DEC 2024 03:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  8 DEC 2024 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1942,38 +1942,57 @@ Overfull \vbox (6.03122pt too high) detected at line 600
 
 [19
 
-] [20
+]
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 627
+.
+ [20
 
 ] [21
 
 ]
+Overfull \vbox (8.67242pt too high) detected at line 655
+ []
+
+[22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-673.
+756.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [22
+)
+[27
 
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<Foliation connection.png, id=191, 672.01062pt x 390.45876pt>
+<Foliation connection.png, id=220, 672.01062pt x 390.45876pt>
 File: Foliation connection.png Graphic file (type png)
 <use Foliation connection.png>
-Package pdftex.def Info: Foliation connection.png  used on input line 691.
+Package pdftex.def Info: Foliation connection.png  used on input line 774.
 (pdftex.def)             Requested size: 342.95062pt x 199.26239pt.
- [23
+ [28
 
  <./Foliation connection.png>]
 File: Foliation connection.png Graphic file (type png)
 <use Foliation connection.png>
-Package pdftex.def Info: Foliation connection.png  used on input line 711.
+Package pdftex.def Info: Foliation connection.png  used on input line 794.
 (pdftex.def)             Requested size: 171.47203pt x 99.62822pt.
-[24
+ [29
 
-] [25
+] [30
 
 ]
 \openout4 = `Talk.vrb'.
 
- (Talk.vrb) [26
+ (Talk.vrb) [31
 
 ]
 \tf@nav=\write7
@@ -1994,8 +2013,17 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Talk.out' has not changed.
-(rerunfilecheck)             Checksum: EC048A175A1592DB04B1E72F0FA4FC1F;972.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Talk.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Talk.out':
+(rerunfilecheck)             Before: A0378EC36E569F8D3E779C42B5CF259E;1137
+(rerunfilecheck)             After:  CB96406F529AB83CF82A13F57B86EA04;1137.
 Package logreq Info: Writing requests to 'Talk.run.xml'.
 \openout1 = `Talk.run.xml'.
 
@@ -2005,34 +2033,46 @@ Package logreq Info: Writing requests to 'Talk.run.xml'.
 ### simple group (level 1) entered at line 323 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 49443 strings out of 474542
- 1138312 string characters out of 5754265
- 1982507 words of memory out of 5000000
- 70682 multiletter control sequences out of 15000+600000
- 620831 words of font info for 91 fonts, out of 8000000 for 9000
+ 49517 strings out of 474542
+ 1139849 string characters out of 5754265
+ 1982509 words of memory out of 5000000
+ 70742 multiletter control sequences out of 15000+600000
+ 623582 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,17n,123p,1873b,2214s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/
-bkaiu70.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkai
-u91.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi
-7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/lm/lmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb
-><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/lm/lmsso9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/s
-ymbols/msbm10.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/public/stix
-/stix-mathscr.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/public/hoek
-water/stmary10.pfb>
-Output written on Talk.pdf (26 pages, 530301 bytes).
+ 128i,20n,123p,1873b,2238s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Outline0.2.3.29} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.2.2.27} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.2.1.25} has been referenced but does not e
+xist, replaced by a fixed one
+
+<C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu70.pfb><C:/
+Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu91.pfb><C:/User
+s/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm
+/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso8.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/lm/lmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/Ap
+pData/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/Ap
+pData/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
+Output written on Talk.pdf (31 pages, 569381 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 360 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
