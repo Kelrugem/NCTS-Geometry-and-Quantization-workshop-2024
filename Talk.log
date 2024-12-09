@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  8 DEC 2024 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  9 DEC 2024 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,6 +1024,13 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \minrowclearance=\skip71
 \rownum=\count354
 )
+(C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \ocircle on input line 243.
+)
 (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty
 (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
@@ -1448,7 +1455,7 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\CJK*' on input line 119.
+(hyperref)                removing `\CJK*' on input line 121.
 
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/beamertheme-metropolis\beamerth
@@ -1508,102 +1515,102 @@ Package: pgfplotsthemetol 2017/01/23 PGFplots colors based on Paul Tol's SRON t
 echnical note
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-215.
+217.
  (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (Talk.aux)
 \openout1 = `Talk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 215.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 217.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-215.
+217.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stix\ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    ... okay on input line 217.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1660,58 +1667,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 215.
+Package hyperref Info: Link coloring OFF on input line 217.
  (Talk.out)
 (Talk.out)
 \@outlinefile=\write6
 \openout6 = `Talk.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 215.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 215.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 215.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 215.
-\symnumbers=\mathgroup7
-\sympureletters=\mathgroup8
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 217.
+\symnumbers=\mathgroup8
+\sympureletters=\mathgroup9
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 215.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 215.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 215.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 215.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 215.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 215.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 215.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 215.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 215.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 215.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 215.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 217.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 215.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 215.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 215.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 215.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 215.
+(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 215.
+(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 215.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 215.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 215.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 217.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/translator\translator-basic-dic
 tionary-English.dict
@@ -1753,12 +1760,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Talk.bbl' found.
  (Talk.bbl)
-Package biblatex Info: Reference section=0 on input line 215.
-Package biblatex Info: Reference segment=0 on input line 215.
+Package biblatex Info: Reference section=0 on input line 217.
+Package biblatex Info: Reference segment=0 on input line 217.
 
 (Talk.nav)
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 221.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 223.
 
  (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
@@ -1770,7 +1777,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 File: UTF8.chr 2021/10/16 4.8.5
 )
 LaTeX Font Info:    Trying to load font information for C70+bkai on input line 
-221.
+223.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\c70bkai.fd
 File: c70bkai.fd 2021/10/16 4.8.5
@@ -1780,76 +1787,82 @@ File: c70bkai.fdx 2021/10/16 4.8.5
 )
 
 LaTeX Font Warning: Font shape `C70/bkai/m/it' undefined
-(Font)              using `C70/bkai/m/n' instead on input line 221.
+(Font)              using `C70/bkai/m/n' instead on input line 223.
 
-<Logo_Uni_Göttingen_2022.png, id=31, 722.7pt x 128.8815pt>
+<Logo_Uni_Göttingen_2022.png, id=35, 722.7pt x 128.8815pt>
 File: Logo_Uni_Göttingen_2022.png Graphic file (type png)
 <use Logo_Uni_Göttingen_2022.png>
-Package pdftex.def Info: Logo_Uni_Göttingen_2022.png  used on input line 221.
+Package pdftex.def Info: Logo_Uni_Göttingen_2022.png  used on input line 223.
 (pdftex.def)             Requested size: 214.34332pt x 38.22423pt.
 
-Overfull \vbox (39.39339pt too high) detected at line 221
+Overfull \vbox (39.39339pt too high) detected at line 223
  []
 
 [1
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
 es/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./Logo_Uni_Göttingen_2022.png>]
-<Research circles I.pdf, id=47, 384.30576pt x 158.05048pt>
+<Research circles I.pdf, id=51, 384.30576pt x 158.05048pt>
 File: Research circles I.pdf Graphic file (type pdf)
 <use Research circles I.pdf>
-Package pdftex.def Info: Research circles I.pdf  used on input line 234.
+Package pdftex.def Info: Research circles I.pdf  used on input line 236.
 (pdftex.def)             Requested size: 428.68665pt x 176.31111pt.
 
 [2
 
  <./Research circles I.pdf>]
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-37.
+39.
  (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-237.
+239.
 (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-237.
+239.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 237.
+(Font)              <10> on input line 239.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 237.
+(Font)              <7> on input line 239.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 237.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 237
+(Font)              <5> on input line 239.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 239
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 237
+LaTeX Font Info:    Trying to load font information for U+msb on input line 239
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-37.
+39.
 
 (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
+9.
+
+(C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 237.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 239.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 237.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 239.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 237.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 239.
 
  [3
 
@@ -1883,25 +1896,25 @@ Overfull \vbox (9.76123pt too high) detected at line 319
 
 [6
 
-]
-LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 350.
- (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stix\ls1stixscr.fd
-File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
-)
-[7
+] [7
 
 ] [8
 
-] [9
+]
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+ne 359.
+ (C:\Users\User\AppData\Roaming\MiKTeX\tex/latex/stix\ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+) [9
 
 ] [10
 
 ] [11
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [12
+] [12
 
-] [13
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+[13
 
 ] [14
 
@@ -1909,82 +1922,113 @@ File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 
 ] [16
 
+] [17
+
+] [18
+
 ]
-Underfull \hbox (badness 10000) in alignment at lines 571--571
+Underfull \hbox (badness 10000) in alignment at lines 574--574
 [][][] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 571.
+(Font)              <17.28> on input line 574.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 571.
+(Font)              <12> on input line 574.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 571.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 574.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 571.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 574.
 
 
-Overfull \vbox (12.05049pt too high) detected at line 571
- []
-
-[17
-
-]
-Overfull \vbox (6.03122pt too high) detected at line 600
- []
-
-[18
-
-]
-Overfull \vbox (6.03122pt too high) detected at line 600
+Overfull \vbox (12.05049pt too high) detected at line 574
  []
 
 [19
 
 ]
-LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 627
-.
- [20
-
-] [21
-
-]
-Overfull \vbox (8.67242pt too high) detected at line 655
+Overfull \vbox (6.03122pt too high) detected at line 603
  []
 
-[22
+[20
+
+]
+Overfull \vbox (6.03122pt too high) detected at line 603
+ []
+
+[21
+
+]
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 630
+.
+ [22
 
 ] [23
 
 ]
+Overfull \vbox (8.67242pt too high) detected at line 658
+ []
+
+[24
+
+] [25
+
+]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-695.
+698.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [24
+) [26
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [25
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [27
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-27.
+33.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [26
-
-] [27
-
-] [28
+) [28
 
 ] [29
 
 ] [30
 
+] [31
+
+] [32
+
 ]
-[31
+[33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 861.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 861.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 861.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 861.
+
+ [40
+
+] [41
 
 ]
 \tf@nav=\write7
@@ -2006,7 +2050,7 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Talk.out' has not changed.
-(rerunfilecheck)             Checksum: D84C2613E6B4E545B1D95DBE63A3A03F;756.
+(rerunfilecheck)             Checksum: 3F73E83A36E540CD2EBB30BEE18C2F97;792.
 Package logreq Info: Writing requests to 'Talk.run.xml'.
 \openout1 = `Talk.run.xml'.
 
@@ -2016,34 +2060,36 @@ Package logreq Info: Writing requests to 'Talk.run.xml'.
 ### simple group (level 1) entered at line 323 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 49424 strings out of 474542
- 1137882 string characters out of 5754265
- 1982392 words of memory out of 5000000
- 70654 multiletter control sequences out of 15000+600000
- 632391 words of font info for 95 fonts, out of 8000000 for 9000
+ 49784 strings out of 474542
+ 1142597 string characters out of 5754265
+ 1984152 words of memory out of 5000000
+ 70972 multiletter control sequences out of 15000+600000
+ 657310 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,1873b,2156s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/
-bkaiu70.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkai
-u91.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu93.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts
-/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi
-7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program File
-s/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso8.pfb><C
-:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
-lm/lmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/User/A
-ppData/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/A
-ppData/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Talk.pdf (31 pages, 467966 bytes).
+ 128i,20n,123p,1873b,2230s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/was
+y/dpi600\wasy10.pk><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bka
+iu/bkaiu70.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/b
+kaiu91.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/bkaiu
+93.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
+mmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso8.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/lm/lmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/AppDa
+ta/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/AppDa
+ta/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
+Output written on Talk.pdf (41 pages, 496431 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

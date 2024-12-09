@@ -37,6 +37,8 @@ aspectratio=3218,
 \usepackage{makecell} %For making larger cells in tables
 \usepackage{colortbl}
 
+\usepackage{wasysym} %Smileys!!! :)
+
 %Für die ganzen Diagramme
 \usepackage{pgfplots}
 
@@ -234,9 +236,7 @@ aspectratio=3218,
 \end{frame} 
 }
 
-\section{Curved Yang-Mills-Higgs theory \& their Ehresmann connections}
-
-\subsection{Motivation}
+\section{Motivation}
 
 
 
@@ -318,10 +318,19 @@ S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories},
 	\end{tikzcd}
 \end{frame}
 
-
+\section{Lie groupoids}
 
 {
 \setbeamertemplate{frame footer}{Ana Cannas Da Silva and Alan Weinstein. \textit{Geometric models for noncommutative algebras}, volume 10. American Mathematical Soc., 1999.}
+
+\begin{frame}
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+x'' \& \arrow[l, swap, "g'", bend right] x' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] x
+	\end{tikzcd}
+\end{center}
+\end{frame}
+
 
 \begin{frame}
 \begin{center}
@@ -347,14 +356,6 @@ for all $(g', g) \in \mathcal{G} \fibtimes{s}{t} \mathcal{G}$ (i.e.\ $s(g') = t(
 \eas
 for all $(g'', g', g) \in \mathcal{G} \fibtimes{s}{t} \mathcal{G} \fibtimes{s}{t} \mathcal{G}$, where one requires the existence of the \textit{unit} $e$ as a global section of both, $s$ and $t$, and the \textit{inverse} $g^{-1} \in \mathcal{G}$ of $g$.
 \end{definition}
-\end{frame}
-
-\begin{frame}
-\begin{center}
-	\begin{tikzcd}[ampersand replacement=\&]
-x'' \& \arrow[l, swap, "g'", bend right] x' \& \arrow[l, swap, "g", bend right] \arrow[ll, swap, "g'g", bend right=70] x
-	\end{tikzcd}
-\end{center}
 \end{frame}
 
 \begin{frame}
@@ -445,6 +446,8 @@ p \cdot e_{\Phi(p)} &= p
 for all $(p, g', g) \in P \fibtimes{\Phi}t \mathcal{G} \fibtimes ts \mathcal{G}$.
 \end{definition}
 \end{frame}
+
+\section{Principal bundles and their Ehresmann connections}
 
 \setbeamertemplate{frame footer}{I.~Moerdijk and J.~Mr{\v c}un. \textit{Introduction to foliations and Lie groupoids}, Cambridge University Press, 2003.}
 
@@ -682,13 +685,13 @@ Vice versa, if $\mathup{H}\mathcal{G}$ is Cartan, then such $\mathup{H}P$ exist.
 
 \begin{frame}{What else?}
 \begin{idea}
-Open a textbook about ordinary gauge theory, and replace appearing notions with the corresponding notions of curved theories and Lie groupoids:
+Open a textbook about ordinary gauge theory, and replace:
 \begin{itemize}
 	\item Right-pushforward $\rightsquigarrow$ Modified right-pushforward,
 	\item Adjoint representation $\rightsquigarrow$ Adjoint representation via Cartan connections (?)
 	\item Generalising the concept of field strength accounting for a possible curvature coming from $\mathcal{G}$
 \end{itemize}
-We would also need to introduce and discuss Lie algebroids, Lie algebroid connections, basic curvature, basic connections, and so on...
+Too much to introduce! (Lie algebroids, Lie algebroid connections, basic curvature, basic connections, and so on...)
 
 Thus, for today: LGBs!
 \end{idea}
@@ -700,12 +703,16 @@ Thus, for today: LGBs!
 S.-R.\ Fischer. \textit{Integrating curved Yang–Mills gauge theories}, arXiv: 2210.02924, 2022.}
 
 \begin{frame}
+\begin{remark}
+The groupoid is now an LGB $\pi_{\mathcal{G}} \colon \mathcal{G} \to M$ with structural Lie group $G$.
+\end{remark}
+
 %\begin{remark}
 Gauge invariance requires us to study \emph{special} Cartan connections:
 %\end{remark}
 
 \begin{definition}[Multiplicative Yang-Mills connections]\vspace{.5pt}
-A connection 1-form $\mu_{\mathcal{G}}$ on an LGB $\mathcal{G}$ is a \textbf{multiplicative Yang-Mills connection (w.r.t.\ a $\zeta \in \Omega^2(M; \mathcal{g})$)} if it is a Cartan connection satisfying the \textbf{generalised Maurer-Cartan equation}:
+A connection 1-form $\mu_{\mathcal{G}}$ on the LGB $\mathcal{G}$ is a \textbf{multiplicative Yang-Mills connection (w.r.t.\ a $\zeta \in \Omega^2(M; \mathcal{g})$)} if it is a Cartan connection satisfying the \textbf{generalised Maurer-Cartan equation}:
 	\bas
 	\mleft.\mleft(\mathrm{d}^{\pi_{\mathcal{G}}^*\nabla^{\mathcal{G}}} \mu_{\mathcal{G}}
 	+ \frac{1}{2} \mleft[ \mu_{\mathcal{G}} \stackrel{\wedge}{,} \mu_{\mathcal{G}} \mright]_{\pi_{\mathcal{G}}^*\mathcal{g}} \mright)\mright|_g
@@ -718,8 +725,7 @@ for all $g \in \mathcal{G}$, where $\mathcal{g}$ is the Lie algebra bundle (LAB)
 
 \pause
 
-\begin{remark}
-Infinitesimally we have
+\begin{remark}[Closed connection, exact curvature]
 \bes
 R_{\nabla^{\mathcal{G}}} = \mathup{ad} \circ \zeta.
 \ees
@@ -728,7 +734,7 @@ R_{\nabla^{\mathcal{G}}} = \mathup{ad} \circ \zeta.
 
 \begin{frame}
 \begin{definition}\vspace{.5pt}
-The field strength $F$ of an Ehresmann connection $A \in \Omega^1(P; \pi^*\mathcal{G})$ on $\pi \colon P \to M$ is defined by 
+The field strength $F$ of an Ehresmann connection $A \in \Omega^1(P; \pi^*\mathcal{g})$ on $\pi \colon P \to M$ is defined by 
 \bes
 F
 \coloneqq
@@ -751,10 +757,108 @@ for all $L \in \mathup{Aut}(P)$.
 
 \section{Examples}
 
-\begin{frame}
+\setbeamertemplate{frame footer}{
+Kirill C.~H.\ Mackenzie. \textit{General theory of {L}ie groupoids and {L}ie algebroids}, London Mathematical Society Lecture Note Series, 213:xxxviii+501, 2005.\newline
+S.-R.\ Fischer. \textit{Curved {Y}ang–{M}ills–{H}iggs gauge theories in the case of
+  massless gauge bosons}, Journal of Geometry and Physics, 162:104104, 2021.
+}
 
+\begin{frame}
+\begin{idea}
+Let us assume that the structural Lie group $G$ is semisimple, then:
+\end{idea}
+
+\begin{theorem}\vspace{.5pt}
+There is a unique (up to isomorphism) principal $G$-bundle $Q$ such that 
+\bes
+\mathcal{G} = (Q\times G) \Big/ G,
+\ees
+multiplicative Yang-Mills connections on $\mathcal{G}$ are precisely associated connections, thus in 1:1 correspondence to Ehresmann connections on $Q$, and $\zeta$ is the corresponding curvature on $Q$.
+\end{theorem}
 \end{frame}
 
+\setbeamertemplate{frame footer}{
+S.-R.\ Fischer. \textit{Curved {Y}ang–{M}ills–{H}iggs gauge theories in the case of
+  massless gauge bosons}, Journal of Geometry and Physics, 162:104104, 2021.
+}
+
+\begin{frame}
+\begin{corollary}\vspace{.5pt}
+There are only curved multiplicative Yang-Mills connections on $\mathcal{G}$ if and only if $Q$ is not flat.
+\end{corollary}
+
+\begin{example}\vspace{.5pt}
+Hopf fibration $Q \coloneqq \mathbb{S}^7 \to \mathbb{S}^4$,
+\bes
+\mathcal{G} = \bigl( Q \times \mathup{SU}(2) \bigr) \Big/ \mathup{SU}(2).
+\ees
+\end{example}
+
+\pause
+
+\begin{remark}
+Some technical details:
+\begin{itemize}
+	\item This is stable under field redefinitions.
+	\item This can be relaxed to $\mathcal{G}$ with a trivial centre, using a nice geometric interpretation via singular foliations. However, dynamics of gauge theory require $\mathup{Ad}$-invariance...
+	
+	See Camille's talk on Friday \smiley
+\end{itemize}
+\end{remark}
+\end{frame}
+
+\setbeamertemplate{frame footer}{
+S.-R.\ Fischer, M.\ Jalali Farahani, H.\ Kim, and C.\ Saemann. \textit{Adjusted connections I: Differential cocycles for principal groupoid bundles with connection}, arXiv: 2406.16755, 202.}
+
+\begin{frame}{About Lie groupoids...}
+\begin{idea}
+Assume that $G$ is semisimple \textbf{and} acts faithfully on $\mathbb{R}^d$ fixing $0$. Then $\mathcal{G}$ acts faithfully on 
+\bes
+N
+\coloneqq 
+\mleft(Q \times \mathbb{R}^d\mright) \Big/ G,
+\ees
+giving rise to an action groupoid structure on $\phi^*\mathcal{G}$ ($\phi \colon N \to M$)
+\begin{center}
+	\begin{tikzcd}[ampersand replacement=\&]
+\phi^*\mathcal{G} \arrow[d, shift left, "s"]\arrow["t", swap, shift right]{d} \\
+	N
+	\end{tikzcd}
+\end{center}
+\end{idea}
+\pause
+\begin{theorem}\vspace{.5pt}
+The pullback of the multiplicative Yang-Mills connection on $\phi^*\mathcal{G}$ is flat up to field redefinitions if and only if $Q$ is flat.
+\end{theorem}
+\end{frame}
+
+\begin{frame}
+\begin{theorem}\vspace{.5pt}
+The pullback of the multiplicative Yang-Mills connection on $\phi^*\mathcal{G}$ is flat up to field redefinitions if and only if $Q$ is flat.
+\end{theorem}
+
+\begin{remark}
+Other technical details:
+\begin{itemize}
+	\item Also stable under field redefinitions!
+	\item Here semi-simplicity is rather important.
+\end{itemize}
+\end{remark}
+\pause
+\begin{example}\vspace{.5pt}
+Again $Q$ the Hopf fibration $\mathbb{S}^7 \to \mathbb{S}^4$, then naturally choose $\mathbb{R}^d = \mathbb{C}^2$.
+\end{example}
+\end{frame}
+
+\setbeamertemplate{frame footer}{
+S.-R.\ Fischer. \textit{Geometry of curved Yang–Mills–Higgs gauge theories}, Ph.D.\ thesis, Institut Camille Jordan [Villeurbanne], France, U. Geneva, Switzerland, 2021; doi: 10.13097/archive-ouverte/unige:152555
+}
+
+\begin{frame}{A quick funny example, again by $\mathbb{S}^7$}
+\begin{example}\vspace{.5pt}
+The Lie groupoid $\mathcal{G}$ given as the pair groupoid of $\mathbb{S}^7$ leads to descriptions of curved Yang-Mills-Higgs theories, which cannot be described in an ordinary way due to the lack of non-associativity on $\mathbb{S}^7$.
+\end{example}
+\end{frame}
 
 \begin{frame}[standout]
 \thispagestyle{empty}
