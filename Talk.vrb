@@ -1,20 +1,4 @@
-\frametitle{Classification of singular foliations}
-\begin{block}{Theorem ([C.\ L.-G., S.-R.\ F.])}
-\vspace{.5pt}
-Formal singular foliations with leaf $L$ and transverse model $(\mathbb{R}^d, \tau_l)$ are equivalent to:
-\begin{itemize}
-	\item A Galois cover $L'$ over $L$ with structural group $K$
-	\item A short exact sequence of groups
-	\begin{center}
-		\begin{tikzcd}[ampersand replacement=\&]
-		\mathup{Inner}(\tau_l) \arrow[hook]{r}
-		\&
-		H \arrow[two heads]{r}
-		\&
-		K
-		\end{tikzcd}
-	\end{center}
-	\item A principal $H$-bundle $P$ over $L$
-\end{itemize}
-\end{block}
-
+\frametitle{A quick funny example, again by $\mathbb {S}^7$}
+\begin{example}\vspace{.5pt}
+The Lie groupoid $\mathcal{G}$ given as the pair groupoid of $\mathbb{S}^7$ leads to descriptions of curved Yang-Mills-Higgs theories, which cannot be described in an ordinary way due to the lack of non-associativity on $\mathbb{S}^7$.
+\end{example}

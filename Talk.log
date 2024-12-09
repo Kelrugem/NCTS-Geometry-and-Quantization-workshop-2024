@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  9 DEC 2024 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  9 DEC 2024 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1789,7 +1789,7 @@ File: c70bkai.fdx 2021/10/16 4.8.5
 LaTeX Font Warning: Font shape `C70/bkai/m/it' undefined
 (Font)              using `C70/bkai/m/n' instead on input line 223.
 
-<Logo_Uni_Göttingen_2022.png, id=35, 722.7pt x 128.8815pt>
+<Logo_Uni_Göttingen_2022.png, id=39, 722.7pt x 128.8815pt>
 File: Logo_Uni_Göttingen_2022.png Graphic file (type png)
 <use Logo_Uni_Göttingen_2022.png>
 Package pdftex.def Info: Logo_Uni_Göttingen_2022.png  used on input line 223.
@@ -1802,7 +1802,7 @@ Overfull \vbox (39.39339pt too high) detected at line 223
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
 es/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./Logo_Uni_Göttingen_2022.png>]
-<Research circles I.pdf, id=51, 384.30576pt x 158.05048pt>
+<Research circles I.pdf, id=55, 384.30576pt x 158.05048pt>
 File: Research circles I.pdf Graphic file (type pdf)
 <use Research circles I.pdf>
 Package pdftex.def Info: Research circles I.pdf  used on input line 236.
@@ -2015,20 +2015,25 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ] [39
 
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 861.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 861.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 861.
-
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 861.
-
- [40
+] [40
 
 ] [41
+
+]
+\openout4 = `Talk.vrb'.
+
+ (Talk.vrb)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 878.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 878.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 878.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 878.
+
+ [42
 
 ]
 \tf@nav=\write7
@@ -2050,7 +2055,7 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Talk.out' has not changed.
-(rerunfilecheck)             Checksum: 3F73E83A36E540CD2EBB30BEE18C2F97;792.
+(rerunfilecheck)             Checksum: 6BD6ACA7D7F5EC4A6BBC6CBC62863014;873.
 Package logreq Info: Writing requests to 'Talk.run.xml'.
 \openout1 = `Talk.run.xml'.
 
@@ -2060,13 +2065,13 @@ Package logreq Info: Writing requests to 'Talk.run.xml'.
 ### simple group (level 1) entered at line 323 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 49784 strings out of 474542
- 1142597 string characters out of 5754265
- 1984152 words of memory out of 5000000
- 70972 multiletter control sequences out of 15000+600000
+ 49806 strings out of 474542
+ 1142876 string characters out of 5754265
+ 1984155 words of memory out of 5000000
+ 70988 multiletter control sequences out of 15000+600000
  657310 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,1873b,2230s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,123p,1873b,2320s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/was
 y/dpi600\wasy10.pk><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bka
 iu/bkaiu70.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/b
@@ -2087,9 +2092,9 @@ ogram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/AppDa
 ta/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/AppDa
 ta/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Talk.pdf (41 pages, 496431 bytes).
+Output written on Talk.pdf (42 pages, 498181 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

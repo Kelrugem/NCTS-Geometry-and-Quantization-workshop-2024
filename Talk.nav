@@ -79,8 +79,18 @@
 \headcommand {\beamer@framepages {40}{40}}
 \headcommand {\slideentry {5}{0}{7}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
+\headcommand {\gdef \insertmainframenumber {27}}
+\headcommand {\partentry {Appendix}{1}}
 \headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@subsectionpages {32}{41}}
 \headcommand {\beamer@sectionpages {32}{41}}
-\headcommand {\beamer@documentpages {41}}
+\headcommand {\beamer@subsectionpages {32}{41}}
+\headcommand {\beamer@appendixpages {42}}
+\headcommand {\slideentry {5}{0}{8}{42/42}{}{1}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@partpages {42}{42}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\beamer@sectionpages {42}{42}}
+\headcommand {\beamer@documentpages {42}}
+\headcommand {\gdef \inserttotalframenumber {1}}
 \headcommand {\gdef \inserttotalframenumber {27}}
+\headcommand {\gdef \appendixtotalframenumber {1}}
