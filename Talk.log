@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  9 DEC 2024 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  9 DEC 2024 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2024,14 +2024,14 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
  (Talk.vrb)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 878.
+(Font)              <8> on input line 882.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 878.
+(Font)              <6> on input line 882.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 878.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 882.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 878.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 882.
 
  [42
 
@@ -2092,7 +2092,7 @@ ogram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/AppDa
 ta/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/AppDa
 ta/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Talk.pdf (42 pages, 498181 bytes).
+Output written on Talk.pdf (42 pages, 498718 bytes).
 PDF statistics:
  423 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)

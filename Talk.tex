@@ -386,10 +386,10 @@ x \& \arrow[l, swap, "g'", bend right] x \& \arrow[l, swap, "g", bend right] \ar
 
 \begin{example}[Lie group bundles (LGBs)]
 \vspace{.5pt}
-LGB $\pi_G \colon G \to M$
+LGB $\pi_{\mathcal{G}} \colon {\mathcal{G}} \to M$
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
-G \arrow[d, shift left, "\pi_G"]\arrow["\pi_G", swap, shift right]{d} \\
+{\mathcal{G}} \arrow[d, shift left, "\pi_G"]\arrow["\pi_G", swap, shift right]{d} \\
 	M
 	\end{tikzcd}
 \end{center}
@@ -437,13 +437,13 @@ P \arrow["\Phi", swap]{rd} \& \arrow[bend right]{l} \mathcal{G} \arrow[d, shift 
 \begin{definition}[Groupoid right-action]\vspace{.5pt}
 A \textbf{right-action} is a smooth map $P \fibtimes{\Phi}t \mathcal{G} \to P$ such that
 \bas
-\Phi(p \cdot g') &= s(g'),
+\Phi(p \cdot g) &= s(g),
 \\
-(p \cdot g') \cdot g &= p \cdot (g' g),
+(p \cdot g) \cdot g' &= p \cdot (g g'),
 \\
 p \cdot e_{\Phi(p)} &= p
 \eas
-for all $(p, g', g) \in P \fibtimes{\Phi}t \mathcal{G} \fibtimes ts \mathcal{G}$.
+for all $(p, g, g') \in P \fibtimes{\Phi}t \mathcal{G} \fibtimes st \mathcal{G}$.
 \end{definition}
 \end{frame}
 
@@ -852,6 +852,10 @@ Again $Q$ the Hopf fibration $\mathbb{S}^7 \to \mathbb{S}^4$, then naturally cho
 
 
 \begin{frame}{Outlook}
+\begin{itemize}
+	\item More applications? So far: Singular foliations \& Symmetry Breaking
+	\item Local examples?
+\end{itemize}
 \end{frame}
 
 
