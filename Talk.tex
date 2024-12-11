@@ -401,14 +401,14 @@ LGB $\pi_{\mathcal{G}} \colon {\mathcal{G}} \to M$
 \begin{frame}
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
-x \& \arrow[l, swap, "g'" pos=.42, bend right] x \cdot q \& \arrow[l, swap, "g" pos= .45, bend right] \arrow[ll, swap, "g'g", bend right=70] x \cdot q q'
+x \& \arrow[l, swap, "{(x, q)}" pos=.42, bend right] x \cdot q \& \arrow[l, swap, "{(x \cdot q, q')}" pos= .45, bend right] \arrow[ll, swap, "{(x, q) ~ (x \cdot q, q')}", bend right=70] x \cdot q q'
 	\end{tikzcd}
 \end{center}
 
 
 \begin{example}[Action groupoid (trivial)]
 \vspace{.5pt}
-Lie group $G$ with action $\Psi \colon N \times G \to N$, $(p, q) \mapsto p \cdot q$, on $N$. 
+Lie group $G$ with action $\Psi \colon N \times G \to N$, $(x, q) \mapsto x \cdot q$, on $N$. 
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
 N \times G \arrow[d, shift left, "\Psi"]\arrow["\mathup{pr}_1", swap, shift right]{d} \\
@@ -711,6 +711,8 @@ The groupoid is now an LGB $\pi_{\mathcal{G}} \colon \mathcal{G} \to M$ with str
 %\begin{remark}
 Gauge invariance requires us to study \emph{special} Cartan connections:
 %\end{remark}
+
+\pause
 
 \begin{definition}[Multiplicative Yang-Mills connections]\vspace{.5pt}
 A connection 1-form $\mu_{\mathcal{G}}$ on the LGB $\mathcal{G}$ is a \textbf{multiplicative Yang-Mills connection (w.r.t.\ a $\zeta \in \Omega^2(M; \mathcal{g})$)} if it is a Cartan connection satisfying the \textbf{generalised Maurer-Cartan equation}:
