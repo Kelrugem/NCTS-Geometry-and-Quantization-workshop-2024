@@ -2,5 +2,5 @@
 \beamer@sectionintoc {1}{Motivation}{3}{0}{1}
 \beamer@sectionintoc {2}{Lie groupoids}{7}{0}{2}
 \beamer@sectionintoc {3}{Principal bundles and their Ehresmann connections}{14}{0}{3}
-\beamer@sectionintoc {4}{Curved Yang-Mills gauge theory}{27}{0}{4}
-\beamer@sectionintoc {5}{Examples}{33}{0}{5}
+\beamer@sectionintoc {4}{Curved Yang-Mills gauge theory}{28}{0}{4}
+\beamer@sectionintoc {5}{Examples}{34}{0}{5}

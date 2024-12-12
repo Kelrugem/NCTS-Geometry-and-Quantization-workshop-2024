@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  11 DEC 2024 17:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.7)  12 DEC 2024 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1960,39 +1960,43 @@ Overfull \vbox (6.03122pt too high) detected at line 604
 [21
 
 ]
-LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 631
-.
- [22
-
-] [23
-
-]
-Overfull \vbox (8.67242pt too high) detected at line 659
+Overfull \vbox (0.11574pt too high) detected at line 627
  []
 
-[24
+[22
 
-] [25
+]
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 654
+.
+ [23
+
+] [24
+
+]
+Overfull \vbox (8.67242pt too high) detected at line 682
+ []
+
+[25
+
+] [26
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-699.
+722.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [26
+) [27
 
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [27
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [28
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-36.
+59.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [28
-
-] [29
+) [29
 
 ] [30
 
@@ -2000,10 +2004,10 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ] [32
 
-]
-[33
+] [33
 
-] [34
+]
+[34
 
 ] [35
 
@@ -2025,21 +2029,23 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ] [44
 
+] [45
+
 ]
 \openout4 = `Talk.vrb'.
 
  (Talk.vrb)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 906.
+(Font)              <8> on input line 929.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 906.
+(Font)              <6> on input line 929.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 906.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 929.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 906.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 929.
 
- [45
+ [46
 
 ]
 \tf@nav=\write7
@@ -2072,13 +2078,13 @@ Package logreq Info: Writing requests to 'Talk.run.xml'.
 ### simple group (level 1) entered at line 324 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 49821 strings out of 474542
- 1143234 string characters out of 5754265
+ 49829 strings out of 474542
+ 1143303 string characters out of 5754265
  1984155 words of memory out of 5000000
- 70997 multiletter control sequences out of 15000+600000
+ 71003 multiletter control sequences out of 15000+600000
  657310 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,1873b,2336s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,123p,1873b,2342s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/was
 y/dpi600\wasy10.pk><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bka
 iu/bkaiu70.pfb><C:/Users/User/AppData/Roaming/MiKTeX/fonts/type1/arphic/bkaiu/b
@@ -2099,9 +2105,9 @@ ogram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/User/AppDa
 ta/Roaming/MiKTeX/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/User/AppDa
 ta/Roaming/MiKTeX/fonts/type1/public/hoekwater/stmary10.pfb>
-Output written on Talk.pdf (45 pages, 506440 bytes).
+Output written on Talk.pdf (46 pages, 509260 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
